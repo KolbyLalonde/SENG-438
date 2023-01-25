@@ -18,7 +18,6 @@
 [1 Introduction	1](#_Toc439194677)
 
 [2 High-level description of the exploratory testing plan	1](#_Toc439194677)
-To accomplish the exploratory testing portion of the assignment we have created the following plan. We will begin by categorising the testing to target each of the specific use cases. We want to test the specific functions of system startup/shutdown, PIN entry and transactions such as withdraw, deposit or transfer. By testing each use case to some extent we will better understand the system as a whole. Our approach will be to test the broad scope of the system rather than only a few functions extensively. Our test cases will follow the most common paths of the system to determine whether the function is working as expected or has underlying issues.
 
 [3 Comparison of exploratory and manual functional testing	1](#_Toc439194679)
 
@@ -39,7 +38,7 @@ functional testing before this lab
 
 # High-level description of the exploratory testing plan
 
-Text…
+To accomplish the exploratory testing portion of the assignment we have created the following plan. We will begin by categorising the testing to target each of the specific use cases. We want to test the specific functions of system startup/shutdown, PIN entry and transactions such as withdraw, deposit or transfer. By testing each use case to some extent we will better understand the system as a whole. Our approach will be to test the broad scope of the system rather than only a few functions extensively. Our test cases will follow the most common paths of the system to determine whether the function is working as expected or has underlying issues.
 
 # Comparison of exploratory and manual functional testing
 
