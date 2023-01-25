@@ -4,10 +4,10 @@
 
 | Group: Group Number 17     |
 |-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Student 1 Kolby Lalonde                |   
+| Student 2 Sadman Shahriar              |   
+| Student 3 Nolan Parmar              |   
+| Student 4 Siddharth Menon           |   
 
 
 **Table of Contents**
