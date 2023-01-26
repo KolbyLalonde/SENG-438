@@ -9,3 +9,4 @@ Group 17 - W2023
 # Contributors -
 - Kolby Lalonde 
 - Sadman Shahriar 
+- Nolan Parmar
