@@ -41,7 +41,7 @@ In this lab we were given a program that's purpose is to allow the user to depos
 
 3.) Familiarity with industrial defect tracking systems, processes, and practices.
 
-Before starting this lab our knowledge of exploratory and manual functional testing was limited to what we learned in lectures. This was that exploratory testing is all about testing the system as you use it. There is no exact plan to test the functionality of the but rather ideas for testing are discovered as you go. However, with the manual function testing scripts are designed to lay out the exact way the program will be tested. This script will include test cases and steps which are documented. No deviation from the original testing plans will be made. In short, an exploratory test is dynamic and may change where a manual test has a strict plan to abide by. Our understanding of these methods are to be further developed through the completion of this lab.
+Before starting this lab our knowledge of exploratory and manual functional testing was limited to what we learned in lectures. This was that exploratory testing is all about testing the system as you use it. There is no exact plan to test the functionality of thr system but rather ideas for testing are discovered as you go. However, with the manual function testing scripts are designed to lay out the exact way the program will be tested. This script will include test cases and steps which are documented. No deviation from the original testing plans will be made. In short, an exploratory test is dynamic and may change where a manual test has a strict plan to abide by. Our understanding of these methods are to be further developed through the completion of this lab.
 
 
 # High-level description of the exploratory testing plan
