@@ -74,4 +74,4 @@ For example, to request only the issue key and summary add field=key&field=summa
 </item>
 </channel>
 </rss>
-.```
+```
