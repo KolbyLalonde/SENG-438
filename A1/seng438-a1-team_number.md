@@ -61,7 +61,14 @@ Text…
 
 # How the pair testing was managed and team work/effort was divided 
 
-Text…
+To complete the pair testing portion of this assignment our team of 4 was split into teams of 2 with Kolby and Sadman as a team and Nolan and Siddharth as the other teams. How each group handled dividing the work/effort in this portion of the assignment is described in the sections below.
+
+Pair1: Kolby and Sadman
+……….
+
+Pair2: Nolan and Siddharth
+……….
+
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
