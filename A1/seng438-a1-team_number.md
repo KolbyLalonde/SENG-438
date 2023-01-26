@@ -2,12 +2,12 @@
 
 **Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
-| Group: Group Number      |
+| Group: Group Number 17     |
 |-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Student 1 Kolby Lalonde                |   
+| Student 2 Sadman Shahriar              |   
+| Student 3 Nolan Parmar              |   
+| Student 4 Siddharth Menon           |   
 
 
 **Table of Contents**
@@ -17,7 +17,7 @@
 
 [1 Introduction	1](#_Toc439194677)
 
-[2 High-level description of the exploratory testing plan	1](#_Toc439194678)
+[2 High-level description of the exploratory testing plan	1](#_Toc439194677)
 
 [3 Comparison of exploratory and manual functional testing	1](#_Toc439194679)
 
@@ -33,12 +33,20 @@ learned	1](#_Toc439194682)
 
 # Introduction
 
-An introduction of your lab work, and what you knew about exploratory and manual
-functional testing before this lab
+In this lab we were given a program that's purpose is to allow the user to deposit, withdraw, query and transfer funds to/from his/her hypothetical bank account(s). The goal would be to use our knowledge of different testing methods to gain a basic understanding of new software testing concepts. Three key concepts we will discover from the lab are:
+
+1.) Practical experience in testing a software system.
+
+2.) Knowledge of the differences between exploratory, manual scripted, and regression testing.
+
+3.) Familiarity with industrial defect tracking systems, processes, and practices.
+
+Before starting this lab our knowledge of exploratory and manual functional testing was limited to what we learned in lectures. This was that exploratory testing is all about testing the system as you use it. There is no exact plan to test the functionality of thr system but rather ideas for testing are discovered as you go. However, with the manual function testing scripts are designed to lay out the exact way the program will be tested. This script will include test cases and steps which are documented. No deviation from the original testing plans will be made. In short, an exploratory test is dynamic and may change where a manual test has a strict plan to abide by. Our understanding of these methods are to be further developed through the completion of this lab.
+
 
 # High-level description of the exploratory testing plan
 
-Text…
+To accomplish the exploratory testing portion of the assignment we have created the following plan. We will begin by categorising the testing to target each of the specific use cases. We want to test the specific functions of system startup/shutdown, PIN entry and transactions such as withdraw, deposit or transfer. By testing each use case to some extent we will better understand the system as a whole. Our approach will be to test the broad scope of the system rather than only a few functions extensively. Our test cases will follow the most common paths of the system to determine whether the function is working as expected or has underlying issues.
 
 # Comparison of exploratory and manual functional testing
 
@@ -53,7 +61,14 @@ Text…
 
 # How the pair testing was managed and team work/effort was divided 
 
-Text…
+To complete the pair testing portion of this assignment our team of 4 was split into teams of 2 with Kolby and Sadman as a team and Nolan and Siddharth as the other teams. How each group handled dividing the work/effort in this portion of the assignment is described in the sections below.
+
+Pair1: Kolby and Sadman
+……….
+
+Pair2: Nolan and Siddharth
+……….
+
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
