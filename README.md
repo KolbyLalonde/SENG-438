@@ -5,6 +5,8 @@ Group #17
 Repository for the Assignments and Projects for SENG 438
 Group 17 - W2023
 
+Assignment #1 is located in folder A1
+
 
 # Contributors -
 - Kolby Lalonde 
