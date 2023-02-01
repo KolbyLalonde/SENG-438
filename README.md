@@ -12,3 +12,4 @@ Assignment #1 is located in folder A1
 - Kolby Lalonde 
 - Sadman Shahriar 
 - Nolan Parmar
+- Siddharth Menon
