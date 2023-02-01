@@ -1,4 +1,5 @@
-# SENG-438
+# SENG-438 - Software Testing, Reliability & Quality 
+
 Group #17
 
 
