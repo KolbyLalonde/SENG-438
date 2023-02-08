@@ -34,7 +34,19 @@ you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
-Text…
+To divide the workload of this lab fairly we where given 10 methods to test with 5 from .DataUtilities and 5 from .Range. We decided it would be fair to have two group members handle two methods and two group members handle three methods. The group members tasked with only two methods would be responsible for picking up the extra work by collaborating to write the lab report. The inital divison of work was as follows:
+
+org.jfree.data.Range
+
+Kolby - Two methods tested (combine and contains) + writing report .md
+Siddharth - Three methods tested (getLowerBound, getUpperBound and getLength)
+
+org.jfree.data.DataUtilities
+
+Nolan - Two methods tested (createNumberArray and createNumberArray2D) + writing report .md
+Sadman - Three methods tested (calculateColumnTotal, calculateRowTotal and getCumulativePercentages)
+
+An agreement was made and expectation was all group members would be willing to provide feedback/guidance to others in cases of confusion. In the end all group members collborated and worked equally on this lab. Each member had a chance to walkthrough all 10 methods tested afterwards to gain a proper understanding of all learning objectives presented. 
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
