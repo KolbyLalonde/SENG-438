@@ -2,9 +2,9 @@
 
 **Lab. Report \#2 – Requirements-Based Test Generation**
 
-| Group \#:      |     |
+| Group \#: 17     |     |
 | -------------- | --- |
-| Student Names: |     |
+| Student Names: |   Kolby Lalonde  |
 |                |     |
 |                |     |
 |                |     |
