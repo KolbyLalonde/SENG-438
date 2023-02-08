@@ -11,7 +11,12 @@
 
 # 1 Introduction
 
-Text…
+In this lab we where given the task of creating unit tests for different methods of the org.jfree.data.Range and org.jfree.data.DataUtilities in the  package org.jfree.data. We will complete this using eclipse IDE and Junit. Our learning objectives for this lab are as follows:
+1.) Create automated test code using JUnit and other XUnit testing frameworks such as NUnit.
+2.) Incorporate and work with mock objects in test code development.
+
+This lab will be an oppurtunity to develop our understanding of debbugging code through unit tests. We also will learn valuable skills in teamwork and planning to successfully complete this lab.
+
 
 # 2 Detailed description of unit test strategy
 
