@@ -48,12 +48,12 @@ Nolan - Two methods tested (createNumberArray and createNumberArray2D) + writing
 
 Sadman - Three methods tested (calculateColumnTotal, calculateRowTotal and getCumulativePercentages)
 
-An agreement was made and expectation was all group members would be willing to provide feedback/guidance to others in cases of confusion. In the end all group members collborated and worked equally on this lab. Each member had a chance to walkthrough all 10 methods tested afterwards to gain a proper understanding of all learning objectives presented. 
+An agreement was made and expectation was all group members would be willing to provide feedback/guidance to others in cases of confusion. In the end all group members collborated and worked equally on this lab. Each member had a chance to walkthrough all 10 methods tested afterwards to gain a proper understanding of all learning objectives presented. We learned from this process that it is resonable to work individually on small tasks and then collabroate once everyone has had a chance to work in order complete a project.
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
-Text…
+The main diffuclties we discovered in this lab were with learning how to create JUnit tests on eclipse. We all had little to no experince ever using the eclipse IDE. However we overcame this issue by working as a team through the familiarization portion of this lab. We learned many new lessons in teamwork and delegating equal workload to individuals.
 
 # 6 Comments/feedback on the lab itself
 
-Text…
+Overall, we found this lab to be more straightfoward than the first lab. This was likly because we now have some experince now with working on a lab in this format. We enjoyed this lab and getting to write code and work with JUnit tests. Some minor feedback we have for future labs may include providing more explanation on how to work with new forms of software such as eclipse in a video demo. We found the begin stages of setting up the lab to be somewhat diffcult with only the instructions in the lab document. However, we were still able to complete this lab minimal setbacks/issues.
