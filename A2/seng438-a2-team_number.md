@@ -39,11 +39,13 @@ To divide the workload of this lab fairly we where given 10 methods to test with
 org.jfree.data.Range
 
 Kolby - Two methods tested (combine and contains) + writing report .md
+
 Siddharth - Three methods tested (getLowerBound, getUpperBound and getLength)
 
 org.jfree.data.DataUtilities
 
 Nolan - Two methods tested (createNumberArray and createNumberArray2D) + writing report .md
+
 Sadman - Three methods tested (calculateColumnTotal, calculateRowTotal and getCumulativePercentages)
 
 An agreement was made and expectation was all group members would be willing to provide feedback/guidance to others in cases of confusion. In the end all group members collborated and worked equally on this lab. Each member had a chance to walkthrough all 10 methods tested afterwards to gain a proper understanding of all learning objectives presented. 
