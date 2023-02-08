@@ -2,12 +2,12 @@
 
 **Lab. Report \#2 – Requirements-Based Test Generation**
 
-| Group \#: 17     |     |
+| Group \#:      |  17   |
 | -------------- | --- |
 | Student Names: |   Kolby Lalonde  |
-|                |     |
-|                |     |
-|                |     |
+|                |   Sadman Shahriar  |
+|                |   Nolan Parmar  |
+|                |   Siddharth Menon  |
 
 # 1 Introduction
 
