@@ -19,6 +19,9 @@ public class RangeTest {
     private Range exampleRangeCombine;
     private Range exampleRangeNull;
 
+    //Siddharth's Test Example Ranges
+    private exampleRange5;
+    private exampleRange6;
     
     @BeforeClass public static void setUpBeforeClass() throws Exception {
     }
@@ -287,6 +290,17 @@ public class RangeTest {
   public void getLengthNegativeRange() {
     double length = exampleRange6.getLength();
     assertEquals(5, length, 0.0);
+  }
+
+  @Test
+  public void getLengthLargeNumberFirstRange() { 
+    try {
+    	Range exampleInvalidRange = new Range (10, 5);
+    	double length = exampleInvalidRange.getLength();
+    }catch(Exception e) {
+    	fail("Lower Bound range needs to be before the Upper Bound range");
+    }
+    assertEquals(10, length, 0.0);
   }
     
     @After
