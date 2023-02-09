@@ -20,7 +20,7 @@ public class LowerBoundsTest {
 
   @Test
   public void testNegativeRange() {
-    Range range = new Range(-5, -10);
+    Range range = new Range(-10, -5);
     double lowerBound = range.getLowerBound();
     assertEquals(-10, lowerBound, 0.0);
   }
