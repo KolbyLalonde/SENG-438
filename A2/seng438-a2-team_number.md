@@ -21,7 +21,18 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
 
 
 # 2 Detailed description of unit test strategy
-
+ Methods Being Tested:
+  Range:
+  
+  DataUtilities:
+  
+  Designed Partitions:
+  
+  Test Determination Procedure:
+  
+  Benefits and Drawback of using Mocking:
+  
+// including the input partitions you have designed
 // including the input partitions you have designed
 
 # 3 Test cases developed
