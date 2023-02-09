@@ -31,7 +31,8 @@ public class RangeTest {
     	exampleRange2 = new Range(-5.0, 5.0);
     	exampleRange3 = new Range(8.0, 15.0);
     	exampleRange4 = new Range(-5.5, 11.1);
-  
+	exampleRange5 = new Range(5.0,5.0);
+  	exampleRange6 = new Range(-10.0,-5.0);
     }
     
     /* 
@@ -265,6 +266,28 @@ public class RangeTest {
     public void containsValueIsRangeCentralValue() {
         assertTrue("The value 2.8 is not contianed in range -5.5 to 11.1", exampleRange4.contains(2.8));
     }
+    /* 
+     * Author: Siddharth 
+     * getLength Method
+     */
+
+  @Test
+  public void getLengthPositiveRange() {
+    double length = exampleRange1.getLength();
+    assertEquals(5, length, 0.0);
+  }
+
+  @Test
+  public void getLengthZeroRange() {
+    double length = exampleRange5.getLength();
+    assertEquals(0, length, 0.0);
+  }
+
+  @Test
+  public void getLengthNegativeRange() {
+    double length = exampleRange6.getLength();
+    assertEquals(5, length, 0.0);
+  }
     
     @After
     public void tearDown() throws Exception {
