@@ -46,7 +46,7 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
 |D| Range 1 |  X = 11.1 Valid  |
 |E| Range 1 | X > 11.1 Invalid|
 |F| null | Invalid on all X |
-|G| null | X = Central Value |
+|G| Range 1 | X = Central Value |
 
 R2.)
 Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
