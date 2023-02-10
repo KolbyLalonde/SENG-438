@@ -27,6 +27,7 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
   
   DataUtilities:
   createNumberArray(double[] data)
+  
   createNumberArray2D(double[][] data)
   
   Designed Partitions:
@@ -34,6 +35,7 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
   Test Determination Procedure:
   
   Benefits and Drawback of using Mocking:
+Mocking is a very useful concept which allows for more efficient unit testing. However, it does contain drawbacks. One of the major benefits of mocking is that it allows users to partially simulate behavior of an object, based on the parts on which they are testing. This leads to a more efficient process as time is not spent creating the components of the object which will not be tested upon in each individual test. As such, isolation of particular functionality becomes much easier. One drawback is that each component must be individually set/determined, which could lead to a larger setup time before testing even begins. As such, it is imperative to use mocking only when the time saved outweighs the time spent on setting each value in the object.
   
 // including the input partitions you have designed
 // including the input partitions you have designed
