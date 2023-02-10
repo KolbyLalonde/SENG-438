@@ -2,7 +2,7 @@
 
 This is the final report and submission for our Assignment 2. 
 
-"Lab Report" is our report from the Assignment. 
+"Lab Report" is our report for this Assignment. 
 
 "RangeTest.java" is all of the unit tests we created for the Range class. 
 
