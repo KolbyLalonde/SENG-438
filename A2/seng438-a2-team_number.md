@@ -102,14 +102,14 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |D| Array 4 |  X =  integer input invalid |
 |E| Array 5 |  X =  mixed input invalid |
 
-D2.) Test Arrays: A1{null}, A2{-9.7, -100.55, -99.7777}, A3{345.345345345, 7.777777777}, A4{1, 2, 3, 4}, R5{20.65423156, -78.17, 11} 
+D2.) Test Arrays: A1{null}, A2{}, A3{15.1234567890123456789}, A4{{19.56782},{-19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782}}, A5{{19.56782, -19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782}}
  |Partion| Class: DataUtilities   |Method: createNumberArray2D  |
 |---| -------------- | --- |
 |A| Array 1 | null input|
-|B| Array 2 |  X = negative double inputs Valid  |
-|C| Array 3 |  X = positive double input types invalid  |
-|D| Array 4 |  X =  integer input invalid |
-|E| Array 5 |  X =  mixed input invalid |
+|B| Array 2 |  X = empty array Valid  |
+|C| Array 3 |  X = more than 17 decimal places invalid  |
+|D| Array 4 |  X = 2D array with 1 row and 10 comlumns invalid |
+|E| Array 5 |  X =  2D array with 10 rows and 1 column invalid |
   
   Test Determination Procedure:
   
