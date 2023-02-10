@@ -21,6 +21,7 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
 
 
 # 2 Detailed description of unit test strategy
+
 The purpose of this black-box testing is to scrutinize the requirements for each method and create tests solely based on those requirements, without looking at the source code. We did equivalence classes and boundary value analysis. To create equivalence classes, we will list each type of input for an individual method. After listing every possible type of input, the pair will identify any inputs which are similar and will provide the same expected output. These groupings will be the classes, and thus when creating test cases. This will lead to a more efficient testing process.To cover all edge cases, we will look towards performing boundary-value analysis. To do so, we will look at the boundaries of the equivalence classes, and choose an input that lies on that boundary, or just outside of it. For example, if the JavaDocs specify that the input range of a variable is [0, 10], boundary test cases would be to provide an input of -1, 0, 10, and 11. These test cases allow the program specifications to be held accountable and ensures that those edge cases are properly handled by the system.
 
  Methods Being Tested:
@@ -112,7 +113,28 @@ D2.) Test Arrays: A1{null}, A2{}, A3{15.1234567890123456789}, A4{{19.56782},{-19
 |C| Array 3 |  X = more than 17 decimal places invalid  |
 |D| Array 4 |  X = 2D array with 1 row and 10 comlumns invalid |
 |E| Array 5 |  X =  2D array with 10 rows and 1 column invalid |
-  
+ 
+D3.) Test Tables: A. 2D 2x2 matrix with a value index (0,0) of 0. B. 2D 2x2 matrix with a value index (0,0) of 2.5. C. 2D 2x2 matrix with a value index (0,0) of (2.5, 7.5).
+|Partition| Class: DataUtilities   |Method: calculateColumnTotal  |
+|---| -------------- | --- |
+|A| Table 1 | table = {(0, 0), (0, 0) checks for empty with 0 values,function returns 0 valid |
+|B| Table 2 |  X = 7.5, single column total valid  |
+|C| Table 3 |  X = 10.0, multiple column total valid  |
+
+D4.) Test Tables: A. 2D 2x2 matrix with a value index (0, 0) of 0. B. 2D 2x2 matrix with a value index (5.5,0) of (0,0) C. 2D 2x2 matrix with a value index (5.5, 6,5) of (0, 0).
+|Partition| Class: DataUtilities   |Method: calculateRowTotal  |
+|---| -------------- | --- |
+|A| Table 1 | table = {(0,0), (0,0) checks for empty with 0 values,function returns 0 valid |
+|B| Table 2 |  X = 5.5, single row total valid  |
+|C| Table 3 |  X = 12.0, multiple row total valid  |
+
+D5.) Test keyedvalues: A. {(0,5), (1, 3)}  B. {(0,5), (1, 3), (2, 1), (3, 7}
+|Partition| Class: DataUtilities   |Method: getCumulativePercentages   |
+|---| -------------- | --- |
+|A| keyedvalues 1 | X = 1 (100 percent) invalid |
+|B| keyedvalues 2 |  X = 0.3, (31 percent) invalid  |
+
+ 
   Test Determination Procedure:
   
   Benefits and Drawback of using Mocking:
@@ -194,6 +216,34 @@ Method: createNumberArray2D
 |C| moreThan17DecimalPlaces2DArrayTest()   |
 |D| tenByOne2DArrayTest()  |
 |E| oneByTen2DArrayTest() |
+
+
+D3.) 
+Method: calculateColumnTotal
+ |Partition| Test Name  |
+|---| --- |
+|A| testEmptyTable() |
+|B| testCalculateColumnTotalForASingleColumn()  |
+|C| testCalculateColumnTotalForMultipleColumns()   |
+
+
+D4.) 
+Method: calculateRowTotal
+ |Partition| Test Name  |
+|---| --- |
+|A| testEmptyTable() |
+|B| testCalculateRowTotalForASingleRow()   |
+|C| testCalculateRowTotalForMultipleRows()  |
+
+
+D5.) 
+Method: getCumulativePercentages
+ |Partition| Test Name  |
+|---| --- |
+|A| testGetCumulativePercentagesCumulatesOneValue()  |
+|B| testGetCumulativePercentagesCumulatesTwoValues()   |
+
+
 
 # 4 How the team work/effort was divided and managed
 
