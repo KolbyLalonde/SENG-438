@@ -25,18 +25,41 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
  
   Range:
   
-  DataUtilities:
-  createNumberArray(double[] data)
+  R1.) contains(double value)
   
-  createNumberArray2D(double[][] data)
+  R2.) combine(Range range1, Range range2)
+  
+  DataUtilities:
+  
+  D1.) createNumberArray(double[] data)
+  
+  D2.) createNumberArray2D(double[][] data)
   
   Designed Partitions:
   
-  | Class: Range   |Method: Contains  |
+  R1.)
+  | Class: Range   |Method: contains  |
 | -------------- | --- |
-| Range 1 (5,10) | X < -5.5 or X > 11.1 Invalid |
-| Range 1 (5,10) | X >= 5.5 and X =< 11.1 Valid |
-| Range 2 (null) | Invalid on all X |
+| Range 1.) (-5.5,11.1) | Partion 1.) X < -5.5 Invalid |
+| Range 1.) (-5.5,11.1) | Partion 2.)  X >= 5.5 and X =< 11.1 Valid  |
+| Range 1.) (-5.5,11.1) | Partion 2.) X > 11.1 Invalid|
+| Range 2.) (null) | Invalid on all X |
+
+R2.)
+Test Ranges R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
+| Class: Range   |Method: combine  |
+| -------------- | --- |
+| Range 1 , Range 2 | Valid Range(-5,10) |
+| Range 2 , Range 1 | Valid Range(-5,10) |
+| Range 1 , null | Valid Range(5,10) |
+| null , Range 2 | Valid Range(-5,5) |
+| null , null | Valid Range(null) |
+| Range 1 , Range 1 | Valid Range(5,10) |
+| Range 1 , Range 1 | Valid Range(5,10) |
+| Range 1 , Range 3 | Valid Range(5,15) |
+| Range 3 , Range 1 | Valid Range(5,15) |
+| Range 3 , Range 2 | Valid Range(-5,15) |
+| Range 2 , Range 3 | Valid Range(-5,15) |
   
   Test Determination Procedure:
   
