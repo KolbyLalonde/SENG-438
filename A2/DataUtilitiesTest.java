@@ -219,10 +219,12 @@ public class DataUtilitiesTest {
     }
     
  // Tests for the createNumberArray(double[] data)
+    
     //By:Nolan Parmar
     // Tests for a null double array which should cause an IllegalArgumentException to be thrown		
     @Test(expected = IllegalArgumentException.class)
-	public void testCreateNumberArrayNullData22() {
+	public void testCreateNumberArrayNullData22() 
+	{
 		Number[] expected = null;
 		double[] data = null;
 		Number[] result = DataUtilities.createNumberArray(data);
@@ -267,7 +269,27 @@ public class DataUtilitiesTest {
       assertArrayEquals(expectedVal, returnVal);
     }
     
-    //Tests for createNumberArray2D(double[][] data) 
+    
+    //Tests for createNumberArray2D(double[][] data)
+	
+    //By:Nolan Parmar
+    //Equivalence test (illegal value); passing in a null object to turn into a 2D Number array
+    //Expected outcome: Exception is thrown
+    @Test
+	public void nullObjectTo2DArrayTest() 
+	{
+		boolean testPassed = false;
+		
+		try {
+			DataUtilities.createNumberArray2D(null);
+		} catch (Exception e) {
+			//exception was thrown
+			testPassed = true;
+		} finally {
+			assertEquals("Method should throw exception.", true, testPassed);
+		}
+	}
+    
     //By:Nolan Parmar
     //Boundary testing with least number of possible elements; passing in an empty 2D double array to turn into a Number array
     //Expected outcome:  empty Number array
@@ -277,11 +299,10 @@ public class DataUtilitiesTest {
 		double [][] test = {};
 		Number [][] expected = {};
 		Number [][] actual = DataUtilities.createNumberArray2D(test);
-		assertArrayEquals("The Number 2D array produce by DataUtilities does not match the empty, expected Number 2D Array", expected, actual);
+		assertArrayEquals(expected, actual);
 	}
     
     //By:Nolan Parmar
-    //createNumberArray2D(double [][]) 
     //Boundary testing 
     //passing in a 2D double array with more than 17 decimal places
     @Test
@@ -290,11 +311,10 @@ public class DataUtilitiesTest {
 		double [][] test = {{15.1234567890123456789}}; 
 		Number [][] expected = {{15.12345678901234567}}; //last two decimal places are cut off
 		Number [][] actual = DataUtilities.createNumberArray2D(test);
-		assertArrayEquals("The Number 2D array produce by DataUtilities does not match the expected Number 2D Array with more than" + "17 decimal places", expected, actual);
+		assertArrayEquals(expected, actual);
 	}
 	
     //By:Nolan Parmar
-    //createNumberArray2D(double [][]) 
     //Equivalence test 
     // passing in a 2D double array with 1 row and 10 columns
     
@@ -304,12 +324,10 @@ public class DataUtilitiesTest {
 		double [][] test = {{19.56782},{-19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782}};
 		Number [][] expected = {{19.56782},{-19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782}};
 		Number [][] actual = DataUtilities.createNumberArray2D(test);
-		assertArrayEquals("The Number 2D array produce by DataUtilities does not match the expected ten by one Number 2D Array"
-	, expected, actual);
+		assertArrayEquals(expected, actual);
 	}
     
     //By:Nolan Parmar
-    //createNumberArray2D(double [][]) 
     //Equivalence test 
     //passing in a 2D double array with 10 rows and 1 column
     @Test
@@ -319,8 +337,7 @@ public class DataUtilitiesTest {
 		double [][] test = {{19.56782, -19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782}};
 		Number [][] expected = {{19.56782, -19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782}};
 		Number [][] actual = DataUtilities.createNumberArray2D(test);
-		assertArrayEquals("The Number 2D array produce by DataUtilities does not match the expected one by ten Number 2D Array"
-	, expected, actual);
+		assertArrayEquals(expected, actual);
 	}
     
 }
