@@ -49,19 +49,19 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
 
 R2.)
 Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
-| Class: Range   |Method: combine  |
-| -------------- | --- |
-| Range 1 , Range 2 | Valid Range(-5,10) |
-| Range 2 , Range 1 | Valid Range(-5,10) |
-| Range 1 , null | Valid Range(5,10) |
-| null , Range 2 | Valid Range(-5,5) |
-| null , null | Valid Range(null) |
-| Range 1 , Range 1 | Valid Range(5,10) |
-| Range 1 , Range 1 | Valid Range(5,10) |
-| Range 1 , Range 3 | Valid Range(5,15) |
-| Range 3 , Range 1 | Valid Range(5,15) |
-| Range 3 , Range 2 | Valid Range(-5,15) |
-| Range 2 , Range 3 | Valid Range(-5,15) |
+|Partion| Class: Range   |Method: combine  |
+|---| -------------- | --- |
+|A| Range 1 , Range 2 | Valid Range(-5,10) |
+|B| Range 2 , Range 1 | Valid Range(-5,10) |
+|C| Range 1 , null | Valid Range(5,10) |
+|D| null , Range 2 | Valid Range(-5,5) |
+|E| null , null | Valid Range(null) |
+|F| Range 1 , Range 1 | Valid Range(5,10) |
+|G| Range 1 , Range 1 | Valid Range(5,10) |
+|H| Range 1 , Range 3 | Valid Range(5,15) |
+|I| Range 3 , Range 1 | Valid Range(5,15) |
+|J| Range 3 , Range 2 | Valid Range(-5,15) |
+|K| Range 2 , Range 3 | Valid Range(-5,15) |
   
   Test Determination Procedure:
   
