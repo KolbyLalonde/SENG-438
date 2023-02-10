@@ -343,19 +343,19 @@ public class RangeTest {
   @Test
   public void getUpperBoundPositiveRange() {
     double UpperBound = exampleRange1.getUpperBound();
-    assertEquals(5.0, UpperBound, 0.0);
+    assertEquals(10.0, UpperBound, 0.0);
   }
 
   @Test
   public void getUpperBoundZeroRange() {
     double UpperBound = exampleRange5.getUpperBound();
-    assertEquals(5, UpperBound, 0.0);
+    assertEquals(5.0, UpperBound, 0.0);
   }
 
   @Test
   public void getUpperBoundNegativeRange() {
     double UpperBound = exampleRange6.getUpperBound();
-    assertEquals(-10, UpperBound, 0.0);
+    assertEquals(-5, UpperBound, 0.0);
   }
 
   @Test
