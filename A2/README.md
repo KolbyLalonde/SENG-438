@@ -1,4 +1,11 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9955001&assignment_repo_type=AssignmentRepo)
-seng438-a2
+# Assignment 12
 
-Read [the assignment guideline](seng438-a2.md) 
+This is the final report and submission for our Assignment 2. 
+
+"Lab Report" is our report from the Assignment. 
+
+"RangeTest.java" is all of the unit tests we created for the Range class. 
+
+"DataUtilities.java" is all of the unit tests we created for the DataUtilities class. 
+
+Other directories "media" and "Lab Content" contain the materials for assignment which were provided.
