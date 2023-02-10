@@ -38,14 +38,14 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
   Designed Partitions:
   
   R1.) Test Ranges: R1(-5.5,11.1), R2(null)
-  | Class: Range   |Method: contains  |
-| -------------- | --- |
-| Range 1 | X < -5.5 Invalid |
-| Range 1 |  X > -5.5 and X < 11.1 Valid  |
-| Range 1 |  X = -5.5 Valid  |
-| Range 1 |  X = 11.1 Valid  |
-| Range 1 | X > 11.1 Invalid|
-| null | Invalid on all X |
+ |Partion| Class: Range   |Method: contains  |
+|---| -------------- | --- |
+|A| Range 1 | X < -5.5 Invalid |
+|B| Range 1 |  X > -5.5 and X < 11.1 Valid  |
+|C| Range 1 |  X = -5.5 Valid  |
+|D| Range 1 |  X = 11.1 Valid  |
+|E| Range 1 | X > 11.1 Invalid|
+|F| null | Invalid on all X |
 
 R2.)
 Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
