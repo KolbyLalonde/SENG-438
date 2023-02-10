@@ -45,6 +45,25 @@ public class DataUtilitiesTest {
      * Author: Sadman
      * Testing method .calculateColumnTotal
      */
+	
+	@Test
+	public void testEmptyTable() {
+
+		mockValues2D.checking(new Expectations() {
+
+			{
+				one(values2D).getRowCount();
+				will(returnValue(0));
+			}
+
+		});
+
+		double result = DataUtilities.calculateColumnTotal(values2D, 0);
+
+		assertEquals(0, result, 0.000000001d);
+
+	}
+
 
     @Test
     public void testCalculateColumnTotalForASingleColumn()
@@ -158,7 +177,7 @@ public class DataUtilitiesTest {
                 will(returnValue(1));
 
                 atLeast(1).of(keyedValues).getKey(0);
-                will(returnValue(0));
+                will(returnValue(5));
 
                 atLeast(1).of(keyedValues).getValue(0);
                 will(returnValue(3));
@@ -179,6 +198,8 @@ public class DataUtilitiesTest {
         assertEquals("Cumulative percentage of a single value should be 1.0\n", expectedValue, result.getValue(0));
     }
     
+    
+    // Fails
     @Test
     public void testGetCumulativePercentagesCumulatesTwoValues() 
     {
@@ -189,7 +210,7 @@ public class DataUtilitiesTest {
                 will(returnValue(2));
 
                 atLeast(1).of(keyedValues).getKey(0);
-                will(returnValue(0));
+                will(returnValue(5));
 
                 atLeast(1).of(keyedValues).getValue(0);
                 will(returnValue(3));
@@ -214,9 +235,10 @@ public class DataUtilitiesTest {
         final double expectedValue1 = ((keyedValues.getValue(0)).intValue() / totalValue);
         final double expectedValue2 = (((keyedValues.getValue(0)).intValue() + (keyedValues.getValue(1)).intValue()) / totalValue);
 
-        assertEquals("Cumulative percentage of the first value should be 0.2\n", expectedValue1, result.getValue(0));
-        assertEquals("Cumulative percentage of all values should be 0.2\n", expectedValue2, result.getValue(1));
+        assertEquals("Cumulative percentage of the first value should be 0.1\n", expectedValue1, result.getValue(0));
+        assertEquals("Cumulative percentage of all values should be 0.1\n", expectedValue2, result.getValue(1));
     }
+    
     
  // Tests for the createNumberArray(double[] data)
     
