@@ -303,6 +303,34 @@ public class RangeTest {
     }
     
   }
+
+  @Test
+  public void getLowerBoundPositiveRange() {
+    double lowerBound = exampleRange1.getLowerBound();
+    assertEquals(5.0, lowerBound, 0.0);
+  }
+
+  @Test
+  public void getLowerBoundZeroRange() {
+    double lowerBound = exampleRange5.getLowerBound();
+    assertEquals(5, lowerBound, 0.0);
+  }
+
+  @Test
+  public void getLowerBoundNegativeRange() {
+    double lowerBound = exampleRange6.getLowerBound();
+    assertEquals(-10, lowerBound, 0.0);
+  }
+
+  @Test
+  public void getLowerBoundLargeNumberFirstRange() {
+	   try {
+	    	Range exampleInvalidRange = new Range (10, 5);
+	    	double length = exampleInvalidRange.getLength();
+	    }catch(Exception e) {
+	    	fail("Lower Bound range needs to be before the Upper Bound range");
+	    }
+  }
     
     @After
     public void tearDown() throws Exception {
