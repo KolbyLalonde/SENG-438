@@ -32,6 +32,12 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
   
   Designed Partitions:
   
+  | Class: Range   |Method: Contains  |
+| -------------- | --- |
+| Range 1 (5,10) | X < -5.5 or X > 11.1 Invalid |
+| Range 1 (5,10) | X >= 5.5 and X =< 11.1 Valid |
+| Range 2 (null) | Invalid on all X |
+  
   Test Determination Procedure:
   
   Benefits and Drawback of using Mocking:
