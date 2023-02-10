@@ -122,7 +122,7 @@ Method: getLowerBound
 |D| getLowerBoundLargeNumberFirstRange() |
 
 R5.)
-Method: getLowerBound
+Method: getUpperBound
 |Partion| Test Name  |
 |---|  --- |
 |A| getUpperBoundPositiveRange() |
