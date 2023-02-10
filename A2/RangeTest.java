@@ -326,9 +326,37 @@ public class RangeTest {
   public void getLowerBoundLargeNumberFirstRange() {
 	   try {
 	    	Range exampleInvalidRange = new Range (10, 5);
-	    	double length = exampleInvalidRange.getLength();
+	    	double lower = exampleInvalidRange.getLowerBound();
 	    }catch(Exception e) {
-	    	fail("Lower Bound range needs to be before the Upper Bound range");
+	    	fail("Lower Bound range value needs to be before the Upper Bound range value in constructor");
+	    }
+  }
+	
+  @Test
+  public void getUpperBoundPositiveRange() {
+    double UpperBound = exampleRange1.getUpperBound();
+    assertEquals(5.0, UpperBound, 0.0);
+  }
+
+  @Test
+  public void getUpperBoundZeroRange() {
+    double UpperBound = exampleRange5.getUpperBound();
+    assertEquals(5, UpperBound, 0.0);
+  }
+
+  @Test
+  public void getUpperBoundNegativeRange() {
+    double UpperBound = exampleRange6.getUpperBound();
+    assertEquals(-10, UpperBound, 0.0);
+  }
+
+  @Test
+  public void getUpperBoundLargeNumberFirstRange() {
+	   try {
+	    	Range exampleInvalidRange = new Range (10, 5);
+	    	double upper = exampleInvalidRange.getUpperBound();
+	    }catch(Exception e) {
+	    	fail("Lower Bound range value needs to be before the Upper Bound range value in constructor");
 	    }
   }
     
