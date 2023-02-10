@@ -57,11 +57,10 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |D| null , Range 2 | Valid Range(-5,5) |
 |E| null , null | Valid Range(null) |
 |F| Range 1 , Range 1 | Valid Range(5,10) |
-|G| Range 1 , Range 1 | Valid Range(5,10) |
-|H| Range 1 , Range 3 | Valid Range(5,15) |
-|I| Range 3 , Range 1 | Valid Range(5,15) |
-|J| Range 3 , Range 2 | Valid Range(-5,15) |
-|K| Range 2 , Range 3 | Valid Range(-5,15) |
+|G| Range 1 , Range 3 | Valid Range(5,15) |
+|H| Range 3 , Range 1 | Valid Range(5,15) |
+|I| Range 3 , Range 2 | Valid Range(-5,15) |
+|J| Range 2 , Range 3 | Valid Range(-5,15) |
   
   Test Determination Procedure:
   
@@ -73,7 +72,20 @@ Mocking is a very useful concept which allows for more efficient unit testing. H
 
 # 3 Test cases developed
 
-Text…
+R2.)
+Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
+|Partion| Class: Range   |Test Name|
+|---| -------------- | --- |
+|A| Range 1 , Range 2 | combineLargerRangeOne()) |
+|B| Range 2 , Range 1 | combineSmallerRangeOne()) |
+|C| Range 1 , null | combineNullRangeTwo() |
+|D| null , Range 2 | combineNullRangeOne() |
+|E| null , null | combineNullRanges() |
+|F| Range 1 , Range 1 | combineSameRanges() |
+|G| Range 1 , Range 3 | combineOverlapingRangesSmallFirst() |
+|H| Range 3 , Range 1 | combineOverlapingRangesLargeFirst() |
+|I| Range 3 , Range 2 | combineDistjointedRangesLargeFirst() |
+|J| Range 2 , Range 3 | combineDistjointedRangesSmallFirst() |
 
 // write down the name of the test methods and classes. Organize the based on
 the source code method // they test. identify which tests cover which partitions
