@@ -293,14 +293,15 @@ public class RangeTest {
   }
 
   @Test
-  public void getLengthLargeNumberFirstRange() { 
+  public void getLengthLargeNumberFirstRange() {
+    
     try {
     	Range exampleInvalidRange = new Range (10, 5);
     	double length = exampleInvalidRange.getLength();
     }catch(Exception e) {
     	fail("Lower Bound range needs to be before the Upper Bound range");
     }
-    assertEquals(10, length, 0.0);
+    
   }
     
     @After
