@@ -186,7 +186,7 @@ Method: createNumberArray
 D2.) 
 Method: createNumberArray2D
  |Partition| Test Name  |
-|---| -------------- | --- |
+|---| --- |
 |A|  empty2DArrayTest() |
 |B| empty2DArrayTest()  |
 |C| moreThan17DecimalPlaces2DArrayTest()   |
