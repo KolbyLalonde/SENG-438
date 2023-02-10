@@ -93,7 +93,23 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |C| Range 3 |  X = -5.0 Valid  |
 |D| Range 4 |  Invalid on All X |
   
- D1.) Test Ranges: R1(null), R2(-9.7, -100.55, -99.7777), R3(345.345345345, 7.777777777), R4(1, 2, 3, 4), R5(20.65423156, -78.17, 11)  
+ D1.) Test Arrays: A1{null}, A2{-9.7, -100.55, -99.7777}, A3{345.345345345, 7.777777777}, A4{1, 2, 3, 4}, R5{20.65423156, -78.17, 11} 
+ |Partion| Class: DataUtilities   |Method: createNumberArray  |
+|---| -------------- | --- |
+|A| Array 1 | null input|
+|B| Array 2 |  X = negative double inputs Valid  |
+|C| Array 3 |  X = positive double input types invalid  |
+|D| Array 4 |  X =  integer input invalid |
+|E| Array 5 |  X =  mixed input invalid |
+
+D2.) Test Arrays: A1{null}, A2{-9.7, -100.55, -99.7777}, A3{345.345345345, 7.777777777}, A4{1, 2, 3, 4}, R5{20.65423156, -78.17, 11} 
+ |Partion| Class: DataUtilities   |Method: createNumberArray2D  |
+|---| -------------- | --- |
+|A| Array 1 | null input|
+|B| Array 2 |  X = negative double inputs Valid  |
+|C| Array 3 |  X = positive double input types invalid  |
+|D| Array 4 |  X =  integer input invalid |
+|E| Array 5 |  X =  mixed input invalid |
   
   Test Determination Procedure:
   
