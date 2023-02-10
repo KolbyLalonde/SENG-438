@@ -97,9 +97,7 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
   
   Benefits and Drawback of using Mocking:
 Mocking is a very useful concept which allows for more efficient unit testing. However, it does contain drawbacks. One of the major benefits of mocking is that it allows users to partially simulate behavior of an object, based on the parts on which they are testing. This leads to a more efficient process as time is not spent creating the components of the object which will not be tested upon in each individual test. As such, isolation of particular functionality becomes much easier. One drawback is that each component must be individually set/determined, which could lead to a larger setup time before testing even begins. As such, it is imperative to use mocking only when the time saved outweighs the time spent on setting each value in the object.
-  
-// including the input partitions you have designed
-// including the input partitions you have designed
+ 
 
 # 3 Test cases developed
 
@@ -153,10 +151,6 @@ Method: getUpperBound
 |B| getUpperBoundZeroRange() |
 |C| getUpperBoundNegativeRange() |
 |D| getUpperBoundLargeNumberFirstRange() |
-
-// write down the name of the test methods and classes. Organize the based on
-the source code method // they test. identify which tests cover which partitions
-you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
