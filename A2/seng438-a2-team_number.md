@@ -68,6 +68,30 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |H| Range 3 , Range 1 | Valid Range(5,15) |
 |I| Range 3 , Range 2 | Valid Range(-5,15) |
 |J| Range 2 , Range 3 | Valid Range(-5,15) |
+
+  R3.) Test Ranges: R1(5.0,10.0), R2(5.0,5.0),R3(-10.0,-5.0) ,R4(10.0,5.0)
+ |Partion| Class: Range   |Method: getLength  |
+|---| -------------- | --- |
+|A| Range 1 | X = 5.0 Valid |
+|B| Range 2 |  X = 0 Valid  |
+|C| Range 3 |  X = 5.0 Valid  |
+|D| Range 4 |  Invalid on All X |
+
+  R4.) Test Ranges: R1(5.0,10.0), R2(5.0,5.0),R3(-10.0,-5.0) ,R4(10.0,5.0)
+ |Partion| Class: Range   |Method: getLowerBound  |
+|---| -------------- | --- |
+|A| Range 1 | X = 5.0 Valid |
+|B| Range 2 |  X = 5.0 Valid  |
+|C| Range 3 |  X = -10.0 Valid  |
+|D| Range 4 |  Invalid on All X |
+
+  R5.) Test Ranges: R1(5.0,10.0), R2(5.0,5.0),R3(-10.0,-5.0) ,R4(10.0,5.0)
+ |Partion| Class: Range   |Method: getUpperBound  |
+|---| -------------- | --- |
+|A| Range 1 | X = 10.0 Valid |
+|B| Range 2 |  X = 5.0 Valid  |
+|C| Range 3 |  X = -5.0 Valid  |
+|D| Range 4 |  Invalid on All X |
   
   Test Determination Procedure:
   
