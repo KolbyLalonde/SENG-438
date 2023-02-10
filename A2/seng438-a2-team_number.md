@@ -124,6 +124,9 @@ Method: Combine
 |E| combineNullRanges() |
 |F| combineSameRanges() |
 |G| combineOverlapingRangesSmallFirst() |
+|H| combineOverlapingRangesLargeFirst() |
+|I| combineDistjointedRangesLargeFirst() |
+|J| combineDistjointedRangesSmallFirst() |
 
 R3.)
 Method: getLength
