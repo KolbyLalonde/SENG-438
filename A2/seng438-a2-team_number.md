@@ -44,7 +44,7 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
   Designed Partitions:
   
   R1.) Test Ranges: R1(-5.5,11.1), R2(null)
- |Partion| Class: Range   |Method: contains  |
+ |Partition| Class: Range   |Method: contains  |
 |---| -------------- | --- |
 |A| Range 1 | X < -5.5 Invalid |
 |B| Range 1 |  X > -5.5 and X < 11.1 Valid  |
@@ -56,7 +56,7 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
 
 R2.)
 Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
-|Partion| Class: Range   |Method: combine  |
+|Partition| Class: Range   |Method: combine  |
 |---| -------------- | --- |
 |A| Range 1 , Range 2 | Valid Range(-5,10) |
 |B| Range 2 , Range 1 | Valid Range(-5,10) |
@@ -70,7 +70,7 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |J| Range 2 , Range 3 | Valid Range(-5,15) |
 
   R3.) Test Ranges: R1(5.0,10.0), R2(5.0,5.0),R3(-10.0,-5.0) ,R4(10.0,5.0)
- |Partion| Class: Range   |Method: getLength  |
+ |Partition| Class: Range   |Method: getLength  |
 |---| -------------- | --- |
 |A| Range 1 | X = 5.0 Valid |
 |B| Range 2 |  X = 0 Valid  |
@@ -78,7 +78,7 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |D| Range 4 |  Invalid on All X |
 
   R4.) Test Ranges: R1(5.0,10.0), R2(5.0,5.0),R3(-10.0,-5.0) ,R4(10.0,5.0)
- |Partion| Class: Range   |Method: getLowerBound  |
+ |Partition| Class: Range   |Method: getLowerBound  |
 |---| -------------- | --- |
 |A| Range 1 | X = 5.0 Valid |
 |B| Range 2 |  X = 5.0 Valid  |
@@ -86,7 +86,7 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |D| Range 4 |  Invalid on All X |
 
   R5.) Test Ranges: R1(5.0,10.0), R2(5.0,5.0),R3(-10.0,-5.0) ,R4(10.0,5.0)
- |Partion| Class: Range   |Method: getUpperBound  |
+ |Partition| Class: Range   |Method: getUpperBound  |
 |---| -------------- | --- |
 |A| Range 1 | X = 10.0 Valid |
 |B| Range 2 |  X = 5.0 Valid  |
@@ -94,7 +94,7 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |D| Range 4 |  Invalid on All X |
   
  D1.) Test Arrays: A1{null}, A2{-9.7, -100.55, -99.7777}, A3{345.345345345, 7.777777777}, A4{1, 2, 3, 4}, R5{20.65423156, -78.17, 11} 
- |Partion| Class: DataUtilities   |Method: createNumberArray  |
+ |Partition| Class: DataUtilities   |Method: createNumberArray  |
 |---| -------------- | --- |
 |A| Array 1 | null input|
 |B| Array 2 |  X = negative double inputs Valid  |
@@ -103,7 +103,7 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |E| Array 5 |  X =  mixed input invalid |
 
 D2.) Test Arrays: A1{null}, A2{}, A3{15.1234567890123456789}, A4{{19.56782},{-19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782},{19.56782}}, A5{{19.56782, -19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782, 19.56782}}
- |Partion| Class: DataUtilities   |Method: createNumberArray2D  |
+ |Partition| Class: DataUtilities   |Method: createNumberArray2D  |
 |---| -------------- | --- |
 |A| Array 1 | null input|
 |B| Array 2 |  X = empty array Valid  |
@@ -121,7 +121,7 @@ Mocking is a very useful concept which allows for more efficient unit testing. H
 
   R1.) 
   Method: Contains
- |Partion| Test Name  |
+ |Partition| Test Name  |
 |---|  --- |
 |A| containsValueBelowRange() |
 |B| containsValueInRange() |
@@ -133,7 +133,7 @@ Mocking is a very useful concept which allows for more efficient unit testing. H
 
 R2.)
 Method: Combine
-|Partion|Test Name|
+|Partition|Test Name|
 |---| --- |
 |A| combineLargerRangeOne()) |
 |B| combineSmallerRangeOne()) |
@@ -148,7 +148,7 @@ Method: Combine
 
 R3.)
 Method: getLength
-|Partion| Test Name  |
+|Partition| Test Name  |
 |---|  --- |
 |A| getLengthPositiveRange() |
 |B| getLengthZeroRange() |
@@ -157,7 +157,7 @@ Method: getLength
 
 R4.)
 Method: getLowerBound
-|Partion| Test Name  |
+|Partition| Test Name  |
 |---|  --- |
 |A| getLowerBoundPositiveRange() |
 |B| getLowerBoundZeroRange() |
@@ -166,12 +166,22 @@ Method: getLowerBound
 
 R5.)
 Method: getUpperBound
-|Partion| Test Name  |
+|Partition| Test Name  |
 |---|  --- |
 |A| getUpperBoundPositiveRange() |
 |B| getUpperBoundZeroRange() |
 |C| getUpperBoundNegativeRange() |
 |D| getUpperBoundLargeNumberFirstRange() |
+
+D1.) 
+Method: createNumberArray 
+ |Partition| Test Name|
+|---| -------|
+|A| testCreateNumberArrayNullData22()|
+|B| createNumberArrayNegativeDoublesTest()  |
+|C| createNumberArrayPositiveDoublesTest() |
+|D| createNumberArrayIntsTest() |
+|E| createNumberArrayMixedTest() |
 
 # 4 How the team work/effort was divided and managed
 
