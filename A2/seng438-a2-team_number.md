@@ -22,9 +22,12 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
 
 # 2 Detailed description of unit test strategy
  Methods Being Tested:
+ 
   Range:
   
   DataUtilities:
+  createNumberArray(double[] data)
+  createNumberArray2D(double[][] data)
   
   Designed Partitions:
   
