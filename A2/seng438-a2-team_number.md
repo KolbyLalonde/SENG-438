@@ -117,6 +117,8 @@ Method: Combine
 
 R3.)
 Method: getLength
+|Partion| Test Name  |
+|---|  --- |
 |A| getLengthPositiveRange() |
 |B| getLengthZeroRange() |
 |C| getLengthNegativeRange() |
@@ -124,6 +126,8 @@ Method: getLength
 
 R4.)
 Method: getLowerBound
+|Partion| Test Name  |
+|---|  --- |
 |A| getLowerBoundPositiveRange() |
 |B| getLowerBoundZeroRange() |
 |C| getLowerBoundNegativeRange() |
@@ -131,6 +135,8 @@ Method: getLowerBound
 
 R5.)
 Method: getLowerBound
+|Partion| Test Name  |
+|---|  --- |
 |A| getUpperBoundPositiveRange() |
 |B| getUpperBoundZeroRange() |
 |C| getUpperBoundNegativeRange() |
