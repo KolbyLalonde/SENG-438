@@ -44,6 +44,12 @@ The purpose of this black-box testing is to scrutinize the requirements for each
   
   D2.) createNumberArray2D(double[][] data)
   
+  D3.) calculateColumnTotal(Values2D data, int column)
+  
+  D4.) calculateRowTotal(Values2D data, int row)
+  
+  D5.) getCumulativePercentages(KeyedValues data) 
+  
   Designed Partitions:
   
   R1.) Test Ranges: R1(-5.5,11.1), R2(null)
