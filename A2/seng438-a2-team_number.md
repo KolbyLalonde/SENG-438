@@ -29,6 +29,12 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
   
   R2.) combine(Range range1, Range range2)
   
+  R3.) getLength(Range range1, Range range2)
+  
+  R4.) getLowerBound(Range range1, Range range2)
+  
+  R5.) getUpperBound(Range range1, Range range2)
+  
   DataUtilities:
   
   D1.) createNumberArray(double[] data)
@@ -96,9 +102,39 @@ Method: Combine
 |E| combineNullRanges() |
 |F| combineSameRanges() |
 |G| combineOverlapingRangesSmallFirst() |
-|H| combineOverlapingRangesLargeFirst() |
-|I| combineDistjointedRangesLargeFirst() |
-|J| combineDistjointedRangesSmallFirst() |
+|H| getLengthPositiveRange() |
+|I| getLengthZeroRange() |
+|J| getLengthNegativeRange() |
+|K| getLengthLargeNumberFirstRange() |
+|L| getLowerBoundPositiveRange() |
+|M| getLowerBoundZeroRange() |
+|N| getLowerBoundNegativeRange() |
+|O| getLowerBoundLargeNumberFirstRange() |
+|P| getUpperBoundPositiveRange() |
+|Q| getUpperBoundZeroRange() |
+|R| getUpperBoundNegativeRange() |
+|S| getUpperBoundLargeNumberFirstRange() |
+
+R3.)
+Method: getLength
+|A| getLengthPositiveRange() |
+|B| getLengthZeroRange() |
+|C| getLengthNegativeRange() |
+|D| getLengthLargeNumberFirstRange() |
+
+R4.)
+Method: getLowerBound
+|A| getLowerBoundPositiveRange() |
+|B| getLowerBoundZeroRange() |
+|C| getLowerBoundNegativeRange() |
+|D| getLowerBoundLargeNumberFirstRange() |
+
+R5.)
+Method: getLowerBound
+|A| getUpperBoundPositiveRange() |
+|B| getUpperBoundZeroRange() |
+|C| getUpperBoundNegativeRange() |
+|D| getUpperBoundLargeNumberFirstRange() |
 
 // write down the name of the test methods and classes. Organize the based on
 the source code method // they test. identify which tests cover which partitions
