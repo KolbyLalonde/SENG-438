@@ -46,6 +46,7 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
 |D| Range 1 |  X = 11.1 Valid  |
 |E| Range 1 | X > 11.1 Invalid|
 |F| null | Invalid on all X |
+|G| null | X = Central Value |
 
 R2.)
 Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
@@ -72,20 +73,32 @@ Mocking is a very useful concept which allows for more efficient unit testing. H
 
 # 3 Test cases developed
 
+  R1.) 
+  Method: Contains
+ |Partion| Test Name  |
+|---|  --- |
+|A| containsValueBelowRange() |
+|B| containsValueInRange() |
+|C| containsValueIsRangeLowerBound()|
+|D| containsValueIsRangeUpperBound()|
+|E| containsValueAboveRange()|
+|F| containsWithNullRange() |
+|G| containsValueIsRangeCentralValue() |
+
 R2.)
-Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
-|Partion| Class: Range   |Test Name|
-|---| -------------- | --- |
-|A| Range 1 , Range 2 | combineLargerRangeOne()) |
-|B| Range 2 , Range 1 | combineSmallerRangeOne()) |
-|C| Range 1 , null | combineNullRangeTwo() |
-|D| null , Range 2 | combineNullRangeOne() |
-|E| null , null | combineNullRanges() |
-|F| Range 1 , Range 1 | combineSameRanges() |
-|G| Range 1 , Range 3 | combineOverlapingRangesSmallFirst() |
-|H| Range 3 , Range 1 | combineOverlapingRangesLargeFirst() |
-|I| Range 3 , Range 2 | combineDistjointedRangesLargeFirst() |
-|J| Range 2 , Range 3 | combineDistjointedRangesSmallFirst() |
+Method: Combine
+|Partion|Test Name|
+|---| --- |
+|A| combineLargerRangeOne()) |
+|B| combineSmallerRangeOne()) |
+|C| combineNullRangeTwo() |
+|D| combineNullRangeOne() |
+|E| combineNullRanges() |
+|F| combineSameRanges() |
+|G| combineOverlapingRangesSmallFirst() |
+|H| combineOverlapingRangesLargeFirst() |
+|I| combineDistjointedRangesLargeFirst() |
+|J| combineDistjointedRangesSmallFirst() |
 
 // write down the name of the test methods and classes. Organize the based on
 the source code method // they test. identify which tests cover which partitions
