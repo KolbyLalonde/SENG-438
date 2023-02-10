@@ -303,7 +303,10 @@ public class RangeTest {
     }
     
   }
-
+    /* 
+     * Author: Siddharth 
+     * getLowerBound Method
+     */
   @Test
   public void getLowerBoundPositiveRange() {
     double lowerBound = exampleRange1.getLowerBound();
@@ -332,6 +335,11 @@ public class RangeTest {
 	    }
   }
 	
+    /* 
+     * Author: Siddharth 
+     * getUpperBound Method
+     */
+
   @Test
   public void getUpperBoundPositiveRange() {
     double UpperBound = exampleRange1.getUpperBound();
