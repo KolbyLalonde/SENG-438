@@ -21,6 +21,8 @@ This lab will be an oppurtunity to develop our understanding of debbugging code 
 
 
 # 2 Detailed description of unit test strategy
+The purpose of this black-box testing is to scrutinize the requirements for each method and create tests solely based on those requirements, without looking at the source code. We did equivalence classes and boundary value analysis. To create equivalence classes, we will list each type of input for an individual method. After listing every possible type of input, the pair will identify any inputs which are similar and will provide the same expected output. These groupings will be the classes, and thus when creating test cases. This will lead to a more efficient testing process.To cover all edge cases, we will look towards performing boundary-value analysis. To do so, we will look at the boundaries of the equivalence classes, and choose an input that lies on that boundary, or just outside of it. For example, if the JavaDocs specify that the input range of a variable is [0, 10], boundary test cases would be to provide an input of -1, 0, 10, and 11. These test cases allow the program specifications to be held accountable and ensures that those edge cases are properly handled by the system.
+
  Methods Being Tested:
  
   Range:
