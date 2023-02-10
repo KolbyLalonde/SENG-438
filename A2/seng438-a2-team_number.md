@@ -93,6 +93,8 @@ Test Ranges: R1(5,10), R2(-5, 5), R3(8, 15), R4(null)
 |C| Range 3 |  X = -5.0 Valid  |
 |D| Range 4 |  Invalid on All X |
   
+ D1.) Test Ranges: R1(null), R2(-9.7, -100.55, -99.7777), R3(345.345345345, 7.777777777), R4(1, 2, 3, 4), R5(20.65423156, -78.17, 11)  
+  
   Test Determination Procedure:
   
   Benefits and Drawback of using Mocking:
