@@ -102,18 +102,6 @@ Method: Combine
 |E| combineNullRanges() |
 |F| combineSameRanges() |
 |G| combineOverlapingRangesSmallFirst() |
-|H| getLengthPositiveRange() |
-|I| getLengthZeroRange() |
-|J| getLengthNegativeRange() |
-|K| getLengthLargeNumberFirstRange() |
-|L| getLowerBoundPositiveRange() |
-|M| getLowerBoundZeroRange() |
-|N| getLowerBoundNegativeRange() |
-|O| getLowerBoundLargeNumberFirstRange() |
-|P| getUpperBoundPositiveRange() |
-|Q| getUpperBoundZeroRange() |
-|R| getUpperBoundNegativeRange() |
-|S| getUpperBoundLargeNumberFirstRange() |
 
 R3.)
 Method: getLength
