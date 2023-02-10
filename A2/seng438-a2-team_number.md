@@ -183,6 +183,16 @@ Method: createNumberArray
 |D| createNumberArrayIntsTest() |
 |E| createNumberArrayMixedTest() |
 
+D2.) 
+Method: createNumberArray2D
+ |Partition| Test Name  |
+|---| -------------- | --- |
+|A|  empty2DArrayTest() |
+|B| empty2DArrayTest()  |
+|C| moreThan17DecimalPlaces2DArrayTest()   |
+|D| tenByOne2DArrayTest()  |
+|E| oneByTen2DArrayTest() |
+
 # 4 How the team work/effort was divided and managed
 
 To divide the workload of this lab fairly we where given 10 methods to test with 5 from .DataUtilities and 5 from .Range. We decided it would be fair to have two group members handle two methods and two group members handle three methods. The group members tasked with only two methods would be responsible for picking up the extra work by collaborating to write the lab report. The inital divison of work was as follows:
@@ -203,7 +213,7 @@ An agreement was made and expectation was all group members would be willing to 
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
-The main diffuclties we discovered in this lab were with learning how to create JUnit tests on eclipse. We all had little to no experience ever using the eclipse IDE. However we overcame this issue by working as a team through the familiarization portion of this lab. We learned many new lessons in teamwork and delegating equal workload to individuals.
+The main diffuclties we discovered in this lab were with learning how to create JUnit tests on eclipse. We all had little to no experience ever using the eclipse IDE. However we overcame this issue by working as a team through the familiarization portion of this lab. We learned many new lessons in teamwork and delegating equal workload to individuals. Another challenge we encountered was trying to figure out the best way to plan or design our unit test. We knew we wanted to test all possible cases in the partitions we planned. Researching exactly how the methods worked before testing them was something we where fairly unfarmilar with. The majority of the bug testing and troubleshooting experince we had is with an exploratory approach. Ultimatly this lab gave us the opportunity to impove our skills in debugging software by creating a plan for how to test a program.
 Mocking was a comparatively more complicated concept to completely understand. We took time to discuss it between our teammates and studied individually to develop a better understanding of it. We learned that mocking can be a really useful tool, specially when software needs to be developed within a short period of time. Mocking allows the development of test cases parallel to the software's development.
 
 # 6 Comments/feedback on the lab itself
