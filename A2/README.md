@@ -1,4 +1,4 @@
-# Assignment 12
+# Assignment 2
 
 This is the final report and submission for our Assignment 2. 
 
