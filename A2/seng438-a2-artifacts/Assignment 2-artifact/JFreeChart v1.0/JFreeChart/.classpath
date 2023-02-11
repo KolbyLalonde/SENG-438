@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="jfreechart.jar"/>
+	<classpathentry kind="lib" path="lib/bsh-core-2.0b4.jar"/>
+	<classpathentry kind="lib" path="lib/cglib-2.1_3-src.jar"/>
+	<classpathentry kind="lib" path="lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="lib/gnujaxp.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.0-rc1-cvs.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/jMock/jmock-2.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/jMock/jmock-junit3-2.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/jMock/jmock-junit4-2.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/jMock/jmock-legacy-2.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/jMock/jmock-script-2.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-old.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/objenesis-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/servlet.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
