@@ -10,6 +10,4 @@ This is the final report and submission for our Assignment 2.
 
 "JFreeChart" is the exported file system of our eclipse java project.
 
-"Eclipse_Project.jar" is the exported executable jar file of our eclipse java project.
-
 Other directories "media" and "Lab Content" contain the materials for assignment which were provided.
