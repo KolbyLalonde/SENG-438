@@ -32,21 +32,17 @@ The method we have decided to use out the range class is the contains method. Th
 
 Source Code (for reference) -
 
-public boolean contains(double value) {
+{
 
+    public boolean contains(double value) {
         if (value < this.lower) {
-        
             return false;
-            
         }
-        
         if (value  > this.upper) {
-        
             return false;
-            
         }
-        
         return (value >= this.lower && value <= this.upper);
+    }
         
 }
 
