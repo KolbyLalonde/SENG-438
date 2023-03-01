@@ -32,7 +32,11 @@ Text…
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+For the testing strategy we let each pair of group members make their own plans for how they wanted to test the class. So, because of this slightly different planning methods may have been used. An explanation from each group is provide below:
+
+1. Range Class Tests (Kolby and Siddarth)
+
+2. DataUtilities Class Tests (Nolan and Sadman)
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
