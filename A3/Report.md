@@ -2,12 +2,12 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
-| -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Group: Group Number 17     |
+|-----------------|
+| Student 1 Kolby Lalonde                |   
+| Student 2 Sadman Shahriar              |   
+| Student 3 Nolan Parmar              |   
+| Student 4 Siddharth Menon           |   
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
