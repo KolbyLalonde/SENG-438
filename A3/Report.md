@@ -32,7 +32,7 @@ The method we have decided to use out the range class is the contains method. Th
 
 Source Code (for reference) -
 
-{
+
 
     public boolean contains(double value) {
         if (value < this.lower) {
@@ -44,7 +44,20 @@ Source Code (for reference) -
         return (value >= this.lower && value <= this.upper);
     }
         
-}
+Def-Use Table -
+
+| Line    |   Definition  | Uses       |
+|---------|---------------|------------|
+| Line 1  |   value       |            |
+| Line 2  |               |     value, this.lower       |
+| Line 3  |               |            |
+| Line 4  |               |            |
+| Line 5  |               |   value, this.upper         |
+| Line 6  |               |            |
+| Line 7  |               |            |
+| Line 8  |               |     value, this.upper, this.lower       |
+| Line 9  |               |            |
+        
 
 # 3 A detailed description of the testing strategy for the new unit test
 
