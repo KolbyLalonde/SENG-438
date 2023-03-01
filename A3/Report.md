@@ -26,9 +26,21 @@ In this lab we where tasked with determining the adequacy of a white-box test su
 
 Upon completion of the lab we will learn new skills in testing code through a white-box approach.
 
-# 2 Manual data-flow coverage calculations for X and Y methods
+# 2 Manual data-flow coverage calculations for contains and calculateColumnTotal methods
 
-Text…
+The method we have decided to use out the range class is the contains method. The following is the Manual data-flow coverage calculations for it:
+
+Source Code (for reference) -
+
+public boolean contains(double value) {
+        if (value < this.lower) {
+            return false;
+        }
+        if (value  > this.upper) {
+            return false;
+        }
+        return (value >= this.lower && value <= this.upper);
+}
 
 # 3 A detailed description of the testing strategy for the new unit test
 
