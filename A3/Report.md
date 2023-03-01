@@ -36,7 +36,11 @@ For the testing strategy we let each pair of group members make their own plans 
 
 1. Range Class Tests (Kolby and Siddarth)
 
+Text...
+
 2. DataUtilities Class Tests (Nolan and Sadman)
+
+Text...
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
