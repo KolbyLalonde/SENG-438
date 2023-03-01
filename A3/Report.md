@@ -48,15 +48,15 @@ Def-Use Table -
 
 | Line    |   Definition  | Uses       |
 |---------|---------------|------------|
-| Line 1  |   value       |            |
-| Line 2  |               |     value, this.lower       |
-| Line 3  |               |            |
-| Line 4  |               |            |
-| Line 5  |               |   value, this.upper         |
-| Line 6  |               |            |
-| Line 7  |               |            |
-| Line 8  |               |     value, this.upper, this.lower       |
-| Line 9  |               |            |
+| Line 1  |   { value }       |       0     |
+| Line 2  |      { this.lower }         |     { value, this.lower }     |
+| Line 3  |       0        |       0     |
+| Line 4  |        0       |       0     |
+| Line 5  |       { this.upper }         |   { value, this.upper }         |
+| Line 6  |        0       |        0    |
+| Line 7  |        0       |       0     |
+| Line 8  |        0       |    { value, this.upper, this.lower }    |
+| Line 9  |        0       |      0      |
         
 
 # 3 A detailed description of the testing strategy for the new unit test
