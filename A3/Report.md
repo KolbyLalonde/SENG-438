@@ -14,7 +14,14 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+In this lab we where tasked with determining the adequacy of a white-box test suite based on its coverage of the code. We have been given the task of once again testin the Range and DataUtilies class as in assignment #2. The learning objectives for this lab were as follows:
+
+To use code coverage tools to measure test adequacy and become aware of similar tools for other programming environments
+To design test cases to improve code coverage
+To understand some of the benefits and drawbacks of measuring test adequacy with code coverage tools
+To gain an understanding of how data-flow coverage works and be able to calculate it by hand
+
+Upon completion of the lab we will learn new skills in testing code through a white-box approach.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
