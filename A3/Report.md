@@ -52,11 +52,11 @@ Text…
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+Beginning this lab we once again ran throught the farmiliarization portion as a group. We want to do a quick testing cycle on all the coverage tools avaliable and choose which ever ones worked best for the group. Afteer this and making sure all group memebers were on the same stage of the assignment we began delegating tasks. We decided that we once again wanted to use pair programing and that it would be easiest to work with the class we were farmiliar with from assignment #2 of this course. So because of this we had Kolby and Siddarth working on the Range class tests and Sadman and Nolan working on the DataUtilities class test cases. Afterwards as a group we all came back together to explain our tests and combine everything. We then worked through this lab report as a group to display and explain each of our viewpoints throughout this project.
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+Through completion of this lab we encountered a few diffuclties to overcome which provided valuable lessons. As a team we had mixed experinces testing the different coverage tools. So, because of this we had to make some scarifices in the extent of tools used in this lab. The overall white-box testing method was something our group members had never done before. This lead to some confusion in which we had to help each other and work as a team to understand the concepts. We found a few of the methods very diffuclt to test and in order to overcome this we had to use eachother and our course notes as resources. Overall we found this lab to be a positive experince that has help us add valuable software testing tools to our arsenal of unit testing knowledge. We also gained more experince working as a team to complete a successful project under a time contstriant. Ts lab has allowed the group to become more confident future software engineers.
 
 # 10 Comments/feedback on the lab itself
 
