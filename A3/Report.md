@@ -44,7 +44,7 @@ Source Code (for reference) -
         return (value >= this.lower && value <= this.upper);
     }
         
-Def-Use Table -
+Def-Use Table (Note: 0 represents an empty set of values) -
 
 | Line    |   Definition  | Uses       |
 |---------|---------------|------------|
