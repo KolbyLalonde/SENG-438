@@ -60,4 +60,4 @@ Through completion of this lab we encountered a few diffuclties to overcome whic
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+In conclusion we found assignment 3 to be quite interseting and useful. However, we have thought of a few suggestions that might improve this lab in the future. We had some issues with the loading of the images in the assignment handout. This ultimately lead to a more diffuclt experince when trying to set up new coverage tools which we have never used before. Perhaps, in future labs it may be considered to add short set up videos for different coverage tools and integrating them into eclipse IDE. Outside of this we think that it may have been more interesting to work with different class instead of the same as we had in assignment #2. Although despite this we found the lab to provide a positive learning experince.
