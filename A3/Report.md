@@ -63,6 +63,14 @@ Data Flow Graph (DFG) -
 Note: Section 1 {Lines 1-4}, Section 2 {Lines 5-7}, Section 3 {Lines 8-9}
 
 <img src="media/Contains_DFG.png" alt="media/Contains_DFG.png" width="360"/>
+
+DU-Pair List - 
+
+| Variable    |   Definition  | Uses       |
+|---------|---------------|------------|
+| value |   Line 1      |       Line 2, Line 5, Line 8    |
+| this.lower  |      Line 2        |     Line 2, Line 8    |
+| this.upper  |      Line 5       |       Line 5, Line 8      |
         
 
 # 3 A detailed description of the testing strategy for the new unit test
