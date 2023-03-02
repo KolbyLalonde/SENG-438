@@ -792,9 +792,16 @@ public class RangeTest {
 		
 		@Test
 		public void expandTest() {
-			Range newR = Range.expand(exampleRange1, 1.0, 2.0);
-			assertEquals(4.0, newR.getLowerBound(),0.0);
-			assertEquals(12.0, newR.getUpperBound(),0.0);
+			Range range = new Range(0.0, 10.0);
+			Range newR = Range.expand(range, 1.0, 1.0);
+			assertEquals(-10.0, newR.getLowerBound(),0.0);
+		}
+		
+		@Test
+		public void expandNextTest() {
+			Range range = new Range(0.0, 10.0);
+			Range newR = Range.expand(range, -1.0, -1.0);
+			assertEquals(10.0, newR.getUpperBound(),0.0);
 		}
 		 
 		
