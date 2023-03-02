@@ -60,7 +60,7 @@ Def-Use Table (Note: 0 represents an empty set of values) -
 
 Data Flow Graph (DFG) - 
 
-
+<img src="media/Contains_DFG.jpg" alt="media/Contains_DFG.jpg" width="360"/>
         
 
 # 3 A detailed description of the testing strategy for the new unit test
