@@ -30,7 +30,7 @@ Upon completion of the lab we will learn new skills in testing code through a wh
 
 The method we have decided to use out the range class is the contains method. The following is the Manual data-flow coverage calculations for it:
 
-Source Code (for reference) -
+Source Code of Contains Method In Range Class (for reference) -
 
 
 
