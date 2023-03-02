@@ -75,9 +75,12 @@ DU-Pair List -
 Test Case Coverage - 
 | Test case    |    pair    |
 | ---------    |    ------- |
-|              |            |
-|              |            |
-|              |            |
+| containsWithNullRange()      |            |
+|      containsValueInRange()        |            |
+|       containsValueAboveRange()       |            |
+|   containsValueIsRangeLowerBound()    |            |
+|        containsValueIsRangeUpperBound()      |            |
+|    containsValueIsRangeCentralValue()        |            |
 
 
         
