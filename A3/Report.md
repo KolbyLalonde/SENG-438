@@ -64,14 +64,14 @@ Note: Section 1 {Lines 1-4}, Section 2 {Lines 5-7}, Section 3 {Lines 8-9}
 
 <img src="media/Contains_DFG.png" alt="media/Contains_DFG.png" width="360"/>
 
-DU-Pair List - 
-
 Variable Defintion Use (for reference)
 | Variable    |   Definition  | Uses       |
 |---------|---------------|------------|
 | value |   Line 1      |       Line 2, Line 5, Line 8    |
 | this.lower  |      Line 2        |     Line 2, Line 8    |
 | this.upper  |      Line 5       |       Line 5, Line 8      |
+
+DU-Pair List - 
 
 | Pair #| DU-Pair    | 
 |-------|---------|
@@ -84,11 +84,16 @@ Variable Defintion Use (for reference)
 | 7| (this.upper, Line 8)   |
 
 Test Case Coverage - 
+
 | Test case    |    pair    |
 | ---------    |    ------- |
 |      containsValueInRange()        |       3,5,7     |
 |       containsValueAboveRange()       |     2,6       |
 |       containsValueAboveRange()       |     1,4       |
+
+Coverage Calculation -
+
+<img src="media/Contains_Calc.png" alt="media/Contains_Calc.png" width="360"/>
         
 
 # 3 A detailed description of the testing strategy for the new unit test
