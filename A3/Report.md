@@ -66,11 +66,22 @@ Note: Section 1 {Lines 1-4}, Section 2 {Lines 5-7}, Section 3 {Lines 8-9}
 
 DU-Pair List - 
 
+Variable Defintion Use (for reference)
 | Variable    |   Definition  | Uses       |
 |---------|---------------|------------|
 | value |   Line 1      |       Line 2, Line 5, Line 8    |
 | this.lower  |      Line 2        |     Line 2, Line 8    |
 | this.upper  |      Line 5       |       Line 5, Line 8      |
+
+| Pair #| DU-Pairs List    | 
+|-------|---------|
+|1     | (value, Line 2) |
+| 2| (value, Line 5)  |
+| 3| (value, Line 8)   |
+| 4| (this.lower, Line 2)   |
+| 5| (this.lower, Line 8)   |
+| 6| (this.upper, Line 2)   |
+| 7| (this.upper, Line 8)   |
 
 Test Case Coverage - 
 | Test case    |    pair    |
