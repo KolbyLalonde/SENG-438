@@ -60,6 +60,8 @@ Def-Use Table (Note: 0 represents an empty set of values) -
 
 Data Flow Graph (DFG) - 
 
+Note: Section 1 {Lines 1-4}, Section 2 {Lines 5-7}, Section 3 {Lines 8-9}
+
 <img src="media/Contains_DFG.png" alt="media/Contains_DFG.png" width="360"/>
         
 
