@@ -28,7 +28,7 @@ Upon completion of the lab we will learn new skills in testing code through a wh
 
 # 2 Manual data-flow coverage calculations for contains and calculateColumnTotal methods
 
-The method we have decided to use out the range class is the contains method. The following is the Manual data-flow coverage calculations for it:
+The method we have decided to use out the range class to preform manual data-flow coverage is the contains method.
 
 Source Code of Contains Method In Range Class (for reference) -
 
@@ -94,6 +94,10 @@ Test Case Coverage -
 Coverage Calculation -
 
 <img src="media/Contains_Calc.png" alt="media/Contains_Calc.png" width="360"/>
+
+The method we will use out the DataUtilities class to preform manual data-flow coverage is the calculateColumnTotal method.
+
+text... 
         
 
 # 3 A detailed description of the testing strategy for the new unit test
