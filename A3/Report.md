@@ -57,6 +57,10 @@ Def-Use Table (Note: 0 represents an empty set of values) -
 | Line 7  |        0       |       0     |
 | Line 8  |        0       |    { value, this.upper, this.lower }    |
 | Line 9  |        0       |      0      |
+
+Data Flow Graph (DFG) - 
+
+
         
 
 # 3 A detailed description of the testing strategy for the new unit test
