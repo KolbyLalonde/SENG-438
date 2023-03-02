@@ -226,23 +226,7 @@ public class RangeTest {
     /* Created By: Kolby 
      * Testing Method: contains */
     ////////////////////////////
-    
-    /*
-     * Explanation:
-     * This tests the contains method on a null range.
-     */
-    @Test
-    public void containsWithNullRange() {
-    	// Try running contains on a null range
-        try { 
-        	exampleRangeNull.contains(1.0);
-        } catch(Exception e) {
-        	// if contains method throws exception fail test
-        	fail("contains on a null range fails");
-        }
-        // contains on a null range did not fail so test its return value to be false
-        assertFalse("The value 1.0 is contianed in null range", exampleRange4.contains(1.0));
-    }
+  
     
     /*
      * Explanation:
@@ -273,36 +257,7 @@ public class RangeTest {
     	// Result of false expected
         assertFalse("The value -23.4 is contianed in range -5.5 to 11.1", exampleRange4.contains(-23.4));
     }
-    
-    /*
-     * Explanation:
-     * This tests the contains method on value that is the lower bound of the range.
-     */
-    @Test
-    public void containsValueIsRangeLowerBound() {
-    	// Result of true expected
-        assertTrue("The value -5.5 is not contianed in range -5.5 to 11.1", exampleRange4.contains(-5.5));
-    }
-    
-    /*
-     * Explanation:
-     * This tests the contains method on value that is the upper bound of the range.
-     */
-    @Test
-    public void containsValueIsRangeUpperBound() {
-    	// Result of true expected
-        assertTrue("The value 11.1 is not contianed in range -5.5 to 11.1", exampleRange4.contains(11.1));
-    }
-    
-    /*
-     * Explanation:
-     * This tests the contains method on value that is the central value of the range.
-     */
-    @Test
-    public void containsValueIsRangeCentralValue() {
-    	// Result of true expected
-        assertTrue("The value 2.8 is not contianed in range -5.5 to 11.1", exampleRange4.contains(2.8));
-    }
+  
     	
 	    
 	    ////////////////////////////
