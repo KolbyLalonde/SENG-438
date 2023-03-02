@@ -71,6 +71,15 @@ DU-Pair List -
 | value |   Line 1      |       Line 2, Line 5, Line 8    |
 | this.lower  |      Line 2        |     Line 2, Line 8    |
 | this.upper  |      Line 5       |       Line 5, Line 8      |
+
+Test Case Coverage - 
+| Test case    |    pair    |
+| ---------    |    ------- |
+|              |            |
+|              |            |
+|              |            |
+
+
         
 
 # 3 A detailed description of the testing strategy for the new unit test
