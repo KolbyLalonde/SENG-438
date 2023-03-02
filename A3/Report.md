@@ -73,27 +73,22 @@ Variable Defintion Use (for reference)
 | this.lower  |      Line 2        |     Line 2, Line 8    |
 | this.upper  |      Line 5       |       Line 5, Line 8      |
 
-| Pair #| DU-Pairs List    | 
+| Pair #| DU-Pair    | 
 |-------|---------|
 |1     | (value, Line 2) |
 | 2| (value, Line 5)  |
 | 3| (value, Line 8)   |
 | 4| (this.lower, Line 2)   |
 | 5| (this.lower, Line 8)   |
-| 6| (this.upper, Line 2)   |
+| 6| (this.upper, Line 5)   |
 | 7| (this.upper, Line 8)   |
 
 Test Case Coverage - 
 | Test case    |    pair    |
 | ---------    |    ------- |
-| containsWithNullRange()      |            |
-|      containsValueInRange()        |            |
-|       containsValueAboveRange()       |            |
-|   containsValueIsRangeLowerBound()    |            |
-|        containsValueIsRangeUpperBound()      |            |
-|    containsValueIsRangeCentralValue()        |            |
-
-
+|      containsValueInRange()        |       3,5,7     |
+|       containsValueAboveRange()       |     2,6       |
+|       containsValueAboveRange()       |     1,4       |
         
 
 # 3 A detailed description of the testing strategy for the new unit test
