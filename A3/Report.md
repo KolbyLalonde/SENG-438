@@ -149,14 +149,19 @@ For the testing strategy we let each pair of group members make their own plans 
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-testHashCode() - This is a test from the RangeTest.java file which is used to increase Method, Line and Branch coverage for the range class. In our oringinal test coverage from assignment #2 we did not have any tests related to the hashCode() method. because of this no part of this method was ever covered in the original testing. The testHashCode method will increase all coverages to a full 100% in all categories as there is only a singular branch in the code to be tested. This testHashCode method properly handles a test case for that brach.
+1. testHashCode() - This is a test from the RangeTest.java file which is used to increase Method, Line and Branch coverage for the range class. In our oringinal test coverage from assignment #2 we did not have any tests related to the hashCode() method. because of this no part of this method was ever covered in the original testing. The testHashCode method will increase all coverages to a full 100% in all categories as there is only a singular branch in the code to be tested. This testHashCode method properly handles a test case for that brach.
+
 
 
 <img src="media/testHashCode.png" alt="media/testHashCode.png" width="200" hieght="200"/>
 
 <img src="media/hashCode.png" alt="media/hashCode.png" width="200" hieght="200"/>
 
-equalsTestFailsBothBounds() - This is a test from the RangeTest.java file. In our original test case from Assignment 2, we had test cases covering success and failure of the upper bound and lower bound. But we did not test ranges that fail both bounds. This updated test case provides a full 100% coverage in all catagories for the equals method
+2. equalsTestFailsBothBounds() - This is a test from the RangeTest.java file. In our original test case from Assignment 2, we had test cases covering success and failure of the upper bound and lower bound. But we did not test ranges that fail both bounds. This updated test case provides a full 100% coverage in all catagories for the equals method
+
+3. testToString() - This is a test from the RangeTest.java file which is used to increase Method, Line and Branch coverage for the range class. In our oringinal test coverage from assignment #2 we did not have any tests related to the toString() method. because of this no part of this method was ever covered in the original testing. The testToString method will increase all coverages to a full 100% in all categories as there is only a singular branch in the code to be tested. This testToString method properly handles a test case for that brach.
+
+
 
 
 
