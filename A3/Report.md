@@ -105,7 +105,7 @@ text...
 For the testing strategy we let each pair of group members make their own plans for how they wanted to test the class. So, because of this slightly different planning methods may have been used. An explanation from each group is provide below:
 
 1. Range Class Tests (Kolby and Siddarth)
-    For our testing strategy, we primarily used Control Flow Based Testing. Our first step was to examine the Range.java file in order to see which methods needed further coverage and which methods to implement tests for.
+For our testing strategy, we primarily used Control Flow Based Testing. Our first step was to examine the Range.java file in order to see which methods needed further coverage and which methods to implement tests for. We then created a control flow graph - mentally - for each method to be tested. Next, we designed test cases to cover the parts of the CFG for each method. Then, we determined the coverage metrics needed for each method as we went to report test results. Finally, we executed the tests and collected the coverage data.
 
 2. DataUtilities Class Tests (Nolan and Sadman)
 
