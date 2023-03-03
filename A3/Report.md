@@ -150,22 +150,30 @@ Text…
 
 Method coverage:
 
+<img src="media/RangeBeforeMethods.png" alt="media/RangeBeforeMethods.png"/>
 
 Branch coverage:
 
+<img src="media/RangeBeforeBranches.png" alt="media/RangeBeforeBranches.png"/>
 
 Statement coverage:
+
+<img src="media/RangeBeforeLines.png" alt="media/RangeBeforeLines.png"/>
 
 
 ### 5.1.2 After
 
 Method coverage:
 
+<img src="media/RangeUpdatedMethods.png" alt="media/RangeUpdatedMethods.png"/>
 
 Branch coverage:
 
+<img src="media/RangeUpdatedBranches.png" alt="media/RangeUpdatedBranches.png"/>
 
 Statement coverage:
+
+<img src="media/RangeUpdatedLines.png" alt="media/RangeUpdatedLines.png"/>
 
 
 ## 5.2 DataUtilities Coverage
