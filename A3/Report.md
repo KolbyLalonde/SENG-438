@@ -116,7 +116,53 @@ Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+## 5.1 Range Coverage
+
+### 5.1.1 Before
+
+Method coverage:
+
+
+Branch coverage:
+
+
+Statement coverage:
+
+
+### 5.1.2 After
+
+Method coverage:
+
+
+Branch coverage:
+
+
+Statement coverage:
+
+
+## 5.2 DataUtilities Coverage
+
+### 5.2.1 Before
+
+Method coverage:
+<img src="media/521method.png" alt="media/521method.png"/>
+
+Branch coverage:
+<img src="media/521branch.png" alt="media/521branch.png"/>
+
+Statement coverage:
+<img src="media/521statement.png" alt="media/521statement.png"/>
+
+### 5.2.2 After
+
+Method coverage:
+<img src="media/522method.png" alt="media/522method.png"/>
+
+Branch coverage:
+<img src="media/522branch.png" alt="media/522branch.png"/>
+
+Statement coverage:
+<img src="media/522statement.png" alt="media/522statement.png"/>
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
