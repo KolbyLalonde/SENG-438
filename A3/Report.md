@@ -97,7 +97,27 @@ Coverage Calculation -
 
 The method we will use out the DataUtilities class to preform manual data-flow coverage is the calculateColumnTotal method.
 
-text... 
+1. public static double calculateColumnTotal(Values2D data, int column) {
+2. ParamChecks.nullNotPermitted(data, "data");
+3. double total = 0.0;
+4. int rowCount = data.getRowCount();
+5. for (int r = 0; r < rowCount; r++) {
+6. Number n = data.getValue(r, column);
+7. if (n != null) {
+8. total += n.doubleValue();}}
+9. return total;}
+    
+    | Line    |   Definition  | Uses       |
+|---------|---------------|------------|
+| Line 1  |   { data, column }       |       { ∅ }     |
+| Line 2  |       { ∅ }          |     { data }     |
+| Line 3  |       { total }        |     { ∅ }       |
+| Line 4  |        { rowcount }       |       { data }     |
+| Line 5  |       { r }         |   { rowcount,r }         |
+| Line 6  |        { n }       |        {r,column}    |
+| Line 7  |        { ∅ }       |       { n }     |
+| Line 8  |        { total }      |    { n }    |
+| Line 9  |        { ∅ }       |      { total }      |
         
 
 # 3 A detailed description of the testing strategy for the new unit test
