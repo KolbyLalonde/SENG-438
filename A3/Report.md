@@ -153,11 +153,11 @@ For the testing strategy we let each pair of group members make their own plans 
 
 unit test
 
-<img src="media/testHashCode.png" alt="media/testHashCode.png" width="200" hieght="200"/>
+<img src="media/testHashCode.png" alt="media/testHashCode.png" width="500" hieght="500"/>
 
 class coverage
 
-<img src="media/hashCode.png" alt="media/hashCode.png" width="200" hieght="200"/>
+<img src="media/hashCode.png" alt="media/hashCode.png" width="500" hieght="500"/>
 
 2. equalsTestFailsBothBounds() - This is a test from the RangeTest.java file. In our original test case from Assignment 2, we had test cases covering success and failure of the upper bound and lower bound. But we did not test ranges that fail both bounds. This updated test case provides a full 100% coverage in all catagories for the equals method
 
@@ -165,11 +165,11 @@ class coverage
 
 unit test
 
-<img src="media/testToString.png" alt="media/testToString.png" width="200" hieght="200"/>
+<img src="media/testToString().png" alt="media/testToString().png" width="500" hieght="500"/>
 
 class coverage
 
-<img src="media/tostring.png" alt="media/tostring.png" width="200" hieght="200"/>
+<img src="media/tostring.png" alt="media/tostring.png" width="500" hieght="500"/>
 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
