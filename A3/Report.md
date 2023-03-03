@@ -107,7 +107,7 @@ The method we will use out the DataUtilities class to preform manual data-flow c
 8. total += n.doubleValue();}}
 9. return total;}
     
-    | Line    |   Definition  | Uses       |
+| Line    |   Definition  | Uses       |
 |---------|---------------|------------|
 | Line 1  |   { data, column }       |       { ∅ }     |
 | Line 2  |       { ∅ }          |     { data }     |
