@@ -149,7 +149,9 @@ For the testing strategy we let each pair of group members make their own plans 
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+testHashCode() - This is a test from the RangeTest.java file which is used to increase Method, Line and Branch coverage for the range class. In our oringinal test coverage from assignment #2 we did not have any tests related to the hashCode() method. because of this no part of this method was ever covered in the original testing. The testHashCode method will increase all coverages to a full 100% in all categories as there is only a singular branch in the code to be tested. This testHashCode method properly handles a test case for that brach.
+
+
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
