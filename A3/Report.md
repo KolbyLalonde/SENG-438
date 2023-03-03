@@ -121,13 +121,22 @@ The method we will use out the DataUtilities class to preform manual data-flow c
 
  <img src="media/Column_DFG.png" alt="media/Column_DFG.png" width="360"/>   
  
- DU-Pair List - 
-- data: Def = {1}, Use = {1, 3, 7}
-- total: Def = {5,9}, Use = {5,9,10}
-- rowcount: Def = {1}, Use = {6}
-- r: Def = {2}, Use = {7,8,11}
-- n: Def = {3}, Use = {3,4,5,7,9}
-- column: Def = {1}, Use = {7}
+| Pair #| DU-Pair    | 
+|-------|---------|
+|1     | (data, Line 3) |
+| 2| (data, Line 7)  |
+| 3| (total, Line 5)   |
+| 4| (total, Line 9)   |
+| 5| (total, Line 10)   |
+| 6| (rowcount, Line 6)   |
+| 7| (r, Line 7)   |
+| 8| (r, Line 8)   |
+| 9| (r, Line 11)   |
+| 10| (n, Line 4)   |
+| 11| (n, Line 5)   |
+| 12| (n, Line 7)   |
+| 13| (n, Line 9)   |
+| 14| (column, Line 8)   |
 
 
 # 3 A detailed description of the testing strategy for the new unit test
