@@ -126,7 +126,19 @@ In our report we primarily used the coverage tool EclEmma as it was the suggeste
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+## Advantages
+
+The advantages of requirements-based test generation guarantees that the software code does what its assumed to do. Ensures the testing of the code meets the expectations of outputs and expected results defined in the requirements meaning the correctness of certain functionalities is ensured. Requirements based testing is also a popular strategy and tool in popular software development life cycle patterns such as Agile. Requirements based testing has the advantage of also being well-defined and time-boxed meaning testing can be easier to plan due to clear requirements in the system. Another benefit of requirements-based test generation is that the tester does not need to spend time analyzing the source code and thus does not need to be entirely familiar with the system beforehand.
+
+The advantages of coverage-based test generation is that it ensures 100% coverage of all requirements of the system due to the emphasis on covering all areas of the code. This type of testing also helps to extend the testing of software to areas of code that may have gone untested, thus increasing the quality of the software. Furthermore, this type of test generation focuses on the code itself, which leads to the discovery of more bugs if the tester is technically inclined and has a good grasp of the system under test (SUT).
+
+## Disadvantages
+
+The disadvantages of requirements-based testing can be the missing of important parts of software quality. For instance, requirements may be too brief and can cause key parts of the software to go uncaptured and/or not specific enough. Another disadvantage of requirement-based test generation is that it is strongly reliant on the descriptions of the functions and methods, and as such, if the requirements are unclear, the tester can create incorrect tests, which may lead to inefficiencies. Since the tester does not view the source code, they have no way of ensuring that they have covered every branch and possibilities, which could lead to them missing the discovery of certain bugs.
+
+A disadvantage of coverage-based test generation is that a lack of apparent requirements of the system under test can lead to time wasted or long periods of time dedicated to testing less important areas of code to ensure 100% coverage. The quality of tests can also be lower since the lack of structure as to the plan when testing can lead to less "effective" tests. This type of test generation requires the tester to first spend time analyzing the source code and determining which branches, methods, and statements exist, and then determine test cases to cover them all. This could take much longer than simply testing the important requirements of the SUT.
+
+<hr>
 
 # 8 A discussion on how the team work/effort was divided and managed
 
