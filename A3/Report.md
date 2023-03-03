@@ -151,9 +151,11 @@ For the testing strategy we let each pair of group members make their own plans 
 
 1. testHashCode() - This is a test from the RangeTest.java file which is used to increase Method, Line and Branch coverage for the range class. In our oringinal test coverage from assignment #2 we did not have any tests related to the hashCode() method. because of this no part of this method was ever covered in the original testing. The testHashCode method will increase all coverages to a full 100% in all categories as there is only a singular branch in the code to be tested. This testHashCode method properly handles a test case for that brach.
 
-
+unit test
 
 <img src="media/testHashCode.png" alt="media/testHashCode.png" width="200" hieght="200"/>
+
+class coverage
 
 <img src="media/hashCode.png" alt="media/hashCode.png" width="200" hieght="200"/>
 
@@ -161,8 +163,13 @@ For the testing strategy we let each pair of group members make their own plans 
 
 3. testToString() - This is a test from the RangeTest.java file which is used to increase Method, Line and Branch coverage for the range class. In our oringinal test coverage from assignment #2 we did not have any tests related to the toString() method. because of this no part of this method was ever covered in the original testing. The testToString method will increase all coverages to a full 100% in all categories as there is only a singular branch in the code to be tested. This testToString method properly handles a test case for that brach.
 
+unit test
 
+<img src="media/testToString.png" alt="media/testToString.png" width="200" hieght="200"/>
 
+class coverage
+
+<img src="media/tostring.png" alt="media/tostring.png" width="200" hieght="200"/>
 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
