@@ -106,9 +106,7 @@ For the testing strategy we let each pair of group members make their own plans 
 
 **1. Range Class Tests (Kolby and Siddarth):**  For our testing strategy, we primarily used Control Flow Based Testing. Our first step was to examine the Range.java file in order to see which methods needed further coverage and which methods to implement tests for. We then created a control flow graph - mentally - for each method to be tested. Next, we designed test cases to cover the parts of the CFG for each method. Then, we determined the coverage metrics needed for each method as we went to report test results. Finally, we executed the tests and collected the coverage data.
 
-2. DataUtilities Class Tests (Nolan and Sadman)
-
-Text...
+2. DataUtilities Class Tests (Nolan and Sadman):** Our testing strategy we went through the DataUtilities.java and looked through its vbarious methods and discussed what each method exactly did. We then created Unit tests to focus on increasing the statement coverage of the test suite. We kept making unit tests until the statement coverage was a minimum of 90%. Increasing the statement coverage is focused on first because it reports on the execution footprint of testing which lines of code were executed to complete the tests. Therefore, in writing test cases to improve the line coverage, more lines of code within the methods will be executed and marked green. This would also lead to an increase of the method coverage in the class. These lines of code could potentially be branch paths the code can take after a decision statement which would also increase the branch coverage of the test suite. We then collected the coverage data.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
