@@ -768,12 +768,89 @@ public class RangeTest {
 			assertEquals(5.0, newR.getLowerBound(),0.0);
 			assertEquals(5.0, newR.getUpperBound(),0.0);
 		}
+		
+		@Test
+		public void expandToIncludeHigherTest(){
+			Range highR = Range.expandToInclude(exampleRange1, 15);
+			assertEquals(5.0, highR.getLowerBound(),0.0);
+			assertEquals(15.0, highR.getUpperBound(),0.0);
+		}
+		
+		@Test
+		public void expandToIncludeLowerTest(){	
+			Range lowR = Range.expandToInclude(exampleRange1, 1);
+			assertEquals(1.0, lowR.getLowerBound(),0.0);
+			assertEquals(10.0, lowR.getUpperBound(),0.0);
+		}
+		
+		@Test
+		public void expandToIncludeWithinTest(){	
+			Range lowR = Range.expandToInclude(exampleRange1, 7);
+			assertEquals(5.0, lowR.getLowerBound(),0.0);
+			assertEquals(10.0, lowR.getUpperBound(),0.0);
+		}
+		
+		@Test
+		public void expandTest() {
+			Range range = new Range(0.0, 10.0);
+			Range newR = Range.expand(range, 1.0, 1.0);
+			assertEquals(-10.0, newR.getLowerBound(),0.0);
+		}
+		
+		@Test
+		public void expandNextTest() {
+			Range range = new Range(0.0, 10.0);
+			Range newR = Range.expand(range, -1.0, -1.0);
+			assertEquals(10.0, newR.getUpperBound(),0.0);
+		}
 		 
 		
 		@Test
 		public void isNaNRangeTestFail() {
 			assertFalse("Range should not be null", exampleRange1.isNaNRange());
 		}
+		
+		@Test
+	    public void constrainTest() {
+	        // create a new Range object with lower bound 0 and upper bound 10
+	        Range range = new Range(0, 10);
+	        
+	        // test a value below the range
+	        double value1 = -5;
+	        double expected1 = 0;
+	        double result1 = range.constrain(value1);
+	        assertEquals(expected1, result1, 0.0001);
+	        
+	        // test a value above the range
+	        double value2 = 15;
+	        double expected2 = 10;
+	        double result2 = range.constrain(value2);
+	        assertEquals(expected2, result2, 0.0001);
+	        
+	        // test a value within the range
+	        double value3 = 5;
+	        double expected3 = 5;
+	        double result3 = range.constrain(value3);
+	        assertEquals(expected3, result3, 0.0001);
+	        
+	        // test a value equal to the lower bound
+	        double value4 = 0;
+	        double expected4 = 0;
+	        double result4 = range.constrain(value4);
+	        assertEquals(expected4, result4, 0.0001);
+	        
+	        // test a value equal to the upper bound
+	        double value5 = 10;
+	        double expected5 = 10;
+	        double result5 = range.constrain(value5);
+	        assertEquals(expected5, result5, 0.0001);
+	        
+	        // test a NaN value
+	        double value6 = Double.NaN;
+	        double expected6 = 0;
+	        double result6 = range.constrain(value6);
+	        assertTrue(Double.isNaN(result6));
+	    }
 		//end of methods tested
 	
     
