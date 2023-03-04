@@ -138,6 +138,9 @@ The method we will use out the DataUtilities class to preform manual data-flow c
 | 13| (n, Line 9)   |
 | 14| (column, Line 8)   |
 
+The feasible Path missed is [3,4,5] since we don't test what happens when data with a valid rowcount has null for values
+coverage is found by:
+(8+5)/((14+10)-(6+4)) = 92.85%
 
 # 3 A detailed description of the testing strategy for the new unit test
 
@@ -170,6 +173,11 @@ unit test
 class coverage
 
 <img src="media/tostring.png" alt="media/tostring.png" width="500" hieght="500"/>
+
+4. calculateRowTotalElseCoverageTest(): Before this coverage test, we were unable to reach full branch coverage for calculateRowTotal() due to an if-else statement within this method not being covered. To cover this, we called the method by first making a mock object of Values2D with a value of null that would avoid the if(n != null) statement. Therefore, our test would cover this else statement.
+
+5. cloneCoverageTestElse(): Before implementing this test, our test did not cover the else statement of clone(double[][] source). Therefore, we made an object where source[i] == null, so that the if(source[i] != null) would not be entered, and the else statement would be covered instead.
+
 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
