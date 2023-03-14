@@ -18,9 +18,15 @@ In this section we will look into a few of the Mutants reported by the PITest su
 
 ## MUTANT #1.)
 
+<img src="media/media/M1_mutant.png" alt="media/M1_mutant.png" width="360"/>
+
 ### Mutant 1 effects the getCentralValue() method
 
+<img src="media/media/M1_class.png" alt="media/M1_class.png" width="360"/>
+
 ### Mutant 1 should be killed by our getCentralValue() test
+
+<img src="media/media/M1_test.png" alt="media/M1_test.png" width="360"/>
 
 ### Explanation
 
