@@ -18,15 +18,13 @@ In this section we will look into a few of the Mutants reported by the PITest su
 
 ## MUTANT #1.)
 
-# Info
+### Info
 
-# Mutant 1 reported as KILLED
+### Mutant 1 effects the getCentralValue() method
 
-# Mutant 1 effects the getCentralValue() method
+### Mutant 1 should be killed by our getCentralValue() test
 
-# Mutant 1 should be killed by our getCentralValue() test
-
-# Explanation
+### Explanation
 
 This mutant was killed by our unit test getCentralValue() seen above. This mutant changes the value of the 2.0 which divides the lower bound to 1.0. With this happening our test will now fail and thus kill the mutant as reported. Our test fails with this mutant as the value returned by exampleRange1.getCentralValue() will no longer be as expected 7.5. Instead since the exampleRange1 has range (5.0,10.0) the new calculation returned is (5.0/1.0) + (10.0/2.0) = 10.0. This does not match the previous expected value of 7.5 and is why the mutant is killed in this scenario.
 
