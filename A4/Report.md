@@ -18,15 +18,15 @@ In this section we will look into a few of the Mutants reported by the PITest su
 
 ## MUTANT #1.)
 
-<img src="media/M1_mutant.png" alt="media/M1_mutant.png" width="360"/>
+<img src="media/M1_mutant.png" alt="media/M1_mutant.png" width="600"/>
 
 ### Mutant 1 effects the getCentralValue() method
 
-<img src="media/M1_class.png" alt="media/M1_class.png" width="360"/>
+<img src="media/M1_class.png" alt="media/M1_class.png" width="600"/>
 
-### Mutant 1 should be killed by our getCentralValue() test
+### Mutant 1 is killed by our getCentralValue() test
 
-<img src="media/M1_test.png" alt="media/M1_test.png" width="360"/>
+<img src="media/M1_test.png" alt="media/M1_test.png" width="600"/>
 
 ### Explanation
 
@@ -34,17 +34,19 @@ This mutant was killed by our unit test getCentralValue() seen above. This mutan
 
 ## MUTANT #2.)
 
-<img src="media/M2_mutant.png" alt="media/M2_mutant.png" width="360"/>
+<img src="media/M2_mutant.png" alt="media/M2_mutant.png" width="600"/>
 
-### Mutant 1 effects the getCentralValue() method
+### Mutant 2 effects the intersects(Range range) method
 
-<img src="media/M2_class.png" alt="media/M2_class.png" width="360"/>
+<img src="media/M2_class.png" alt="media/M2_class.png" width="600"/>
 
-### Mutant 1 should be killed by our getCentralValue() test
+### Mutant 2 should is by our getIntersectsTestUpperBound() test
 
-<img src="media/M2_test.png" alt="media/M2_test.png" width="360"/>
+<img src="media/M2_test.png" alt="media/M2_test.png" width="600"/>
 
 ### Explanation
+
+This mutant was killed by our unit test getIntersectsTestUpperBound() seen above. This mutant changes the return boolean to a fixed value of false. With this happening our test will now fail and thus kill the mutant as reported. Our test fails with this mutant as the value returned by exampleRange1.getCentralValue() will no longer be as expected true but rather false. Since the exampleRange1 has range (5.0,10.0) and the exampleRange3 has range (8.0,15.0) we expect a true result for overall in this test. The fxed false result does not match the previous expected result of true and is why the mutant is killed in this scenario.
 
 
 
