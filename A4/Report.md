@@ -80,7 +80,21 @@ This mutant survived our unit test case as seen above. This particular mutant ch
 
 This mutant was killed by our unit test getLengthPositiveRange() seen above. This mutant changes the sign of the return value statement from a negative to a positive. With this happening our test will now fail and thus kill the mutant as reported. Our test fails with this mutant as the value returned by exampleRange1.getLength() will no longer be as expected 5.0. Instead since the exampleRange1 has range (5.0,10.0) the new calculation returned is 5.0 + 10.0 = 15.0. This does not match the previous expected value of 5.0 and is why the mutant is killed in this scenario.
 
+## MUTANT #5.)
 
+<img src="media/M5_mutant.png" alt="media/M5_mutant.png" width="600"/>
+
+### Mutant 4 effects the toString() method
+
+<img src="media/M5_class.png" alt="media/M5_class.png" width="600"/>
+
+### Mutant 4 is killed by our testToString() test
+
+<img src="media/M5_test.png" alt="media/M5_test.png" width="600"/>
+
+### Explanation
+
+This mutant was killed by our unit test testToString() seen above. This mutant changes the expected return string created by the method to an empty string "". With this happening our test will now fail and thus kill the mutant as reported. Our test fails with this mutant as the string returned by exampleRange4.toString() will no longer be "Range[-5.5,11.1]" as expected. Instead since the returned string is just "" which does not match the previous expected string and is why the mutant is killed in this scenario.
 
 
 # Report all the statistics and the mutation score for each test class
