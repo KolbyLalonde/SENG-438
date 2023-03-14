@@ -99,6 +99,17 @@ This mutant was killed by our unit test testToString() seen above. This mutant c
 
 # Report all the statistics and the mutation score for each test class
 
+### Range Class Mutation Coverage Before = 54%
+
+<img src="media/Range_Before.png" alt="media/Range_Before.png" width="900"/>
+
+### DataUtilities Class Mutation Coverage Before = ?????
+
+Note: These previous test suites from assignment 3 may have contained tests which failed or had errors. These had to be removed in order to run the mutation test.
+
+### Range Class Mutation Coverage After = 64% (Goal increase 10%)
+
+### DataUtilities Class Mutation Coverage After = ????? (Goal increase 10%)
 
 
 # Analysis drawn on the effectiveness of each of the test classes
