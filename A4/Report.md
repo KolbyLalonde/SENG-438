@@ -18,8 +18,6 @@ In this section we will look into a few of the Mutants reported by the PITest su
 
 ## MUTANT #1.)
 
-### Info
-
 ### Mutant 1 effects the getCentralValue() method
 
 ### Mutant 1 should be killed by our getCentralValue() test
