@@ -2,17 +2,19 @@
 
 **Lab. Report \#4 – Mutation Testing and Web app testing**
 
-| Group \#:      |     |
-| -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Group: Group Number 17     |
+|-----------------|
+| Student 1 Kolby Lalonde                |   
+| Student 2 Sadman Shahriar              |   
+| Student 3 Nolan Parmar              |   
+| Student 4 Siddharth Menon           |   
 
 # Introduction
 
 
 # Analysis of 10 Mutants of the Range class 
+
+In this section we will look into a few of the Mutants reported by the PITest summary. For each Mutant we will show what has happenend provided in range code and explain why or why not the mutant has been killed.
 
 # Report all the statistics and the mutation score for each test class
 
