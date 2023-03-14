@@ -40,13 +40,30 @@ This mutant was killed by our unit test getCentralValue() seen above. This mutan
 
 <img src="media/M2_class.png" alt="media/M2_class.png" width="600"/>
 
-### Mutant 2 should is by our getIntersectsTestUpperBound() test
+### Mutant 2 is killed by our getIntersectsTestUpperBound() test
 
 <img src="media/M2_test.png" alt="media/M2_test.png" width="600"/>
 
 ### Explanation
 
 This mutant was killed by our unit test getIntersectsTestUpperBound() seen above. This mutant changes the return boolean to a fixed value of false. With this happening our test will now fail and thus kill the mutant as reported. Our test fails with this mutant as the value returned by exampleRange1.getCentralValue() will no longer be as expected true but rather false. Since the exampleRange1 has range (5.0,10.0) and the exampleRange3 has range (8.0,15.0) we expect a true result for overall in this test. The fixed false result does not match the previous expected result of true and is why the mutant is killed in this scenario.
+
+## MUTANT #3.)
+
+<img src="media/M3_mutant.png" alt="media/M3_mutant.png" width="600"/>
+
+### Mutant 3 effects the contains() method
+
+<img src="media/M3_class.png" alt="media/M3_class.png" width="600"/>
+
+### Mutant 3 should be killed is by our containsValueInRange() test
+
+<img src="media/M2_test.png" alt="media/M2_test.png" width="600"/>
+
+### Explanation
+
+This mutant survived our unit test case as seen above. This particular mutant changes the value of the local variable given as 1 to be a -1. This mutant is not caught for our test because the example range we are using is (-5.5,11.1). Therefore both 1 and -1 are inside the range. So despite adding the mutant the test case will still pass as -5.5 is less than -1.0 and 11.1 is larger than 11.1. If we wanted this test case to catch this particular mutant, we would need to choose an example range with a lower bound greater than -1.0 so the mutant would not fall within the range. This would cause the test case to fail and the mutant would be killed.
+
 
 
 
