@@ -56,13 +56,13 @@ This mutant was killed by our unit test getIntersectsTestUpperBound() seen above
 
 <img src="media/M3_class.png" alt="media/M3_class.png" width="600"/>
 
-### Mutant 3 should be killed is by our containsValueInRange() test
+### Mutant 3 should be killed by our containsValueInRange() test
 
 <img src="media/M2_test.png" alt="media/M2_test.png" width="600"/>
 
 ### Explanation
 
-This mutant survived our unit test case as seen above. This particular mutant changes the value of the local variable given as 1 to be a -1. This mutant is not caught for our test because the example range we are using is (-5.5,11.1). Therefore both 1 and -1 are inside the range. So despite adding the mutant the test case will still pass as -5.5 is less than -1.0 and 11.1 is larger than 11.1. If we wanted this test case to catch this particular mutant, we would need to choose an example range with a lower bound greater than -1.0 so the mutant would not fall within the range. This would cause the test case to fail and the mutant would be killed.
+This mutant survived our unit test case as seen above. This particular mutant changes the value of the local variable given as 1 to be a -1. This mutant is not caught for our test because the example range we are using is (-5.5,11.1). Therefore both 1 and -1 are inside the range. So despite adding the mutant the test case will still pass as -5.5 is less than -1.0 and 11.1 is larger than -1.0. If we wanted this test case to kill this particular mutant, we would need to choose an example range with a lower bound greater than -1.0 so the mutant would not fall within the range. This would cause the test case to fail and the mutant would be killed.
 
 
 
