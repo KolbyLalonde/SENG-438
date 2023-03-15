@@ -116,7 +116,7 @@ Note: These previous test suites from assignment 3 may have contained tests whic
 
 ### RangeTest (Analysis and Design Strategy)
 
-Reviewing the effectiveness of our mutation coverage on the range test class we created we noticed a few key factors. The first is that our original mutation coverage was only 54%. We found this somewhat suprising as we had previously found high coverages for this class in assignment 3. After reviewing the summary log, it was dizcovered that some areas of the code we were not being tested as closely as we had anticapated. We found that from the log there were areas where many mutants were surviving. Many of these mutant were equivalence mutants. Our plan was to target these equivalence mutants by writing new test cases into or previous test suites to increase the mutation coverage by killing numerous mutants in a singular test. We found a few areas in the class itself where many mutants surived. These included methods intersects(), expands() and combineIgnoringNaN(). So our plan was to target these classes with new, detailed and specific test cases to increase mutation coverage over the 10% mark. In the end our new tests starting on line 879 of the code included.
+Reviewing the effectiveness of our mutation coverage on the range test class we created we noticed a few key factors. The first is that our original mutation coverage was only 54%. We found this somewhat suprising as we had previously found high coverages for this class in assignment 3. After reviewing the summary log, it was dizcovered that some areas of the code we were not being tested as closely as we had anticapated. We found that from the log there were areas where many mutants were surviving. Many of these mutant were equivalence mutants. Our plan was to target these equivalence mutants by writing new test cases into or previous test suites to increase the mutation coverage by killing numerous mutants in a singular test. We found a few areas in the class itself where many mutants surived. These included methods intersects(), expands() and combineIgnoringNaN(). So our plan was to target these classes with new, detailed and specific test cases to increase mutation coverage over the 10% mark. In the end our new tests starting on line 879 of the code included. However it should be noted that equivalence mutants do effect mutation score accuracy negatively as we will describe in more depth below.
 
 getIntersectsTestUpperBoundCloseMatch(), getIntersectsTestLowerBoundCloseMatch(), getIntersectsTestInside(), testCombineIgnoringNaNWithUpperNaN(), testCombineIgnoringNaNWithLowerNaN()....
 
@@ -124,9 +124,15 @@ getIntersectsTestUpperBoundCloseMatch(), getIntersectsTestLowerBoundCloseMatch()
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
+
+
 # A discussion of what could have been done to improve the mutation score of the test suites
 
+Refelecting on our experince working with PITest and mutation testing we have learned a valuable new skill. We imporved our test suites mutation coverage to an extent however we could have done even more to imporve this. Our plan to contiune imporving the mutation coverages would have been extremly similar to that of the imporvements we made in this lab. The way to maximize mutation coverage increase is to target equivalence mutants. This is because killing multiple mutants with one test is much more efficent than writing a whole test to target only a singular mutant at a time. We would expect a point were it would be extremely diffuclt to catch all mutants without very specific tests. For example or RangeTest.java suite now has over 50 unit tests but still not even over 70% mutation coverage. We would need to contiune to create even more specialized tests by directly reviewing the summary log to catch even more mutants and improve the mutation score of our test suites.
+
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
+
+
 
 # Explain your SELENUIM test case design process
 
@@ -137,7 +143,6 @@ getIntersectsTestUpperBoundCloseMatch(), getIntersectsTestLowerBoundCloseMatch()
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
 # How the team work/effort was divided and managed
-
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
