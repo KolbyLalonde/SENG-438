@@ -144,7 +144,21 @@ When creating out SELENUIM tests we wanted to design test cases with scenerios t
 
 # Explain the use of assertions and checkpoints
 
+### Kolby's tests 1 and 2
+
+For my tests I used a combination of assertion statements and verification checkpoints to track if the value where being recorded as intended. For test #1 I included this for the search bar text feild to verify "Basketball" was searched. I also included assert statements to verify that the values for the price range text box of low and high were 5 and 40 as expected. For the login test #2 I verified a login test with a valid user. I included assertions for the email and password text box as well as varify checkpoints to be sure they were valid as intended.
+
+### Sadman's tests ? and ?
+
+### Nolan's tests ? and ?
+
+### Siddharth's tests ? and ?
+
 # how did you test each functionaity with different test data
+
+### Kolby's tests 1 and 2
+
+For my test #1 I did not test the search with different data as it would be impossible to test for all possible search options. This is why I decided to only test for a singular iteam "Basketball". In the filter bar I tested more than one brand search option by selecting both splading and wilson brand. For the price search bar I tried only one valid price range as trying to cover all valid price ranges would be unreasonable. In my test #2 login I didn't test for different data sets as I didn't think it would be effective to make numerous Amazon account. This is why only one account was created for testing purposes of the valid user login functionality.
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
