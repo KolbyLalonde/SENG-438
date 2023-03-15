@@ -160,6 +160,12 @@ For my tests I used a combination of assertion statements and verification check
 
 For my test #1 I did not test the search with different data as it would be impossible to test for all possible search options. This is why I decided to only test for a singular iteam "Basketball". In the filter bar I tested more than one brand search option by selecting both splading and wilson brand. For the price search bar I tried only one valid price range as trying to cover all valid price ranges would be unreasonable. In my test #2 login I didn't test for different data sets as I didn't think it would be effective to make numerous Amazon account. This is why only one account was created for testing purposes of the valid user login functionality.
 
+### Sadman's tests ? and ?
+
+### Nolan's tests ? and ?
+
+### Siddharth's tests ? and ?
+
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
 # How the team work/effort was divided and managed
