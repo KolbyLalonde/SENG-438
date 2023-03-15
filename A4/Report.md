@@ -11,6 +11,8 @@
 
 # Introduction
 
+The goals of this lab are to learn more about both muation testing and GUI testing. We will learn different tools to discover how these concepts work.
+
 
 # Analysis of 10 Mutants of the Range class 
 
