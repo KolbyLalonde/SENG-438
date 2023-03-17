@@ -136,7 +136,7 @@ Refelecting on our experince working with PITest and mutation testing we have le
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
-...
+We need mutation testing to ensure our tests are effective in catching the variety of bugs that may be present within the system. Mutation testing allows for the altering of source code to catch mutants that survive and actually verify our test cases effectiveness. Advantages of mutation testing is that it tests our test cases through the changing of source code. The validation of testing the very tests that test our system has great value for the integrity of the system. Mutation testing has high levels of error detection as well as it tests many different variations of the source code. Some disadvantages of mutation testing is that it sometimes creates a mutant that survives that can’t be solved in some cases by the test code as it would go against the logic of the source code which can cause confusion. The large amount of mutations used in mutation testing is very confusing in how many mutants are created at once.
 
 # Explain your SELENUIM test case design process
 
@@ -168,7 +168,7 @@ For my test #1 I did not test the search with different data as it would be impo
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
-The pros of Sikulix compared to Selenium is that Sikulix makes use of an RPA tool that uses images on the screen for testing automation which can be better in some cases such as image captcha. The cons of Sikulix compared to Selenium is that Sikulix requires an image storage to be used for image recognition within the web page. Sikulix is also not great for the reading of text as compared to Selenium HTML based operation. Sikulix is less applicable to testing in most cases as it uses RPA and Selenium uses HTML/XML.
+The pros of Sikulix compared to Selenium is that Sikulix makes use of an RPA tool that uses images on the screen for testing automation which can be better in some cases such as image captcha. The cons of Sikulix compared to Selenium is that Sikulix requires an image storage to be used for image recognition within the web page. Sikulix is also not great for the reading of text as compared to Selenium HTML based operation. Sikulix is less applicable to testing in most cases as it uses RPA and Selenium uses HTML/XML. We found selenium to be very straightforward to use and had a easy time creating test cases. Selenium supports almost all modern broswers as well. Sikulix sometimes didnt open until we cleared the registry.
 
 # How the team work/effort was divided and managed
 
