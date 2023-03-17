@@ -154,7 +154,10 @@ For my tests I used a combination of assertion statements and verification check
 
 ### Sadman's tests ? and ?
 
-### Nolan's tests ? and ?
+
+### Nolan's tests 3 and 4
+
+For my tests I used verification checkpoints and assertion statements to track if the value that were intended are being recorded. For test #3 I made it verify if it went to the correct profile setting when going through the account. I also made sure that it said there no subscriptions on the account. For test 4 I made it verify that the correct item was in the cart and included assertions for finding the product. 
 
 ### Siddharth's tests ? and ?
 
@@ -166,7 +169,10 @@ For my test #1 I did not test the search with different data as it would be impo
 
 ### Sadman's tests ? and ?
 
-### Nolan's tests ? and ?
+### Nolan's tests 3 and 4
+
+For test 3 I could not test if there were subscriptions in the account since I did not have any and did not want to spend money to test it. This is why I tested it with just having no subscriptions. I also tested different profile features such as mobile apps connected to show more verification in editing the profile. In test 4 
+I thought testing for different products as covering all products would be unreasonable and 1 product would achieve the same result of testing different products.
 
 ### Siddharth's tests ? and ?
 
