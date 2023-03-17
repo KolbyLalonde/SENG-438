@@ -1,4 +1,6 @@
 /*
+ /*
+ /*
  * Author: Kolby and Siddharth
  * SENG 438 Assignment #2
  * org.jfree.data.Range testing method combine
@@ -932,6 +934,61 @@
              assertEquals(5.0, combined.getUpperBound(),0.0);
          
          }
+         
+         @Test
+         public void testShiftPositive() {
+             Range r1 = new Range(0, 10);
+             Range r2 = Range.shift(r1, 5);
+             assertEquals(new Range(5, 15), r2);
+         }
+         
+         @Test
+         public void testShiftNegative() {
+             Range r1 = new Range(0, 10);
+             Range r2 = Range.shift(r1,-5);
+             assertEquals(new Range(-5, 5), r2);
+         }
+         
+         @Test
+         public void testShiftZero() {
+             Range r1 = new Range(0, 10);
+             Range r2 = Range.shift(r1,0);
+             assertEquals(r1, r2);
+         }
+
+         @Test
+         public void testContainsWithin() {
+             Range r1 = new Range(0, 10);
+             assertTrue(r1.contains(5));
+         }
+         
+         @Test
+         public void testContainsOutside() {
+             Range r1 = new Range(0, 10);
+             assertFalse(r1.contains(15));
+         }
+
+         @Test
+         public void testContainsLowerBound() {
+             Range r1 = new Range(0, 10);
+             assertTrue(r1.contains(0));
+         }
+
+         @Test
+         public void testContainsUpperBound() {
+             Range r1 = new Range(0, 10);
+             assertTrue(r1.contains(10));
+         }
+
+         @Test
+         public void testContainsSingleValue() {
+             Range r1 = new Range(5, 5);
+             assertTrue(r1.contains(5));
+         }
+
+
+
+
 
 
          
