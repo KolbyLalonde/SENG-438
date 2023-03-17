@@ -24,7 +24,8 @@ public class DataUtilitiesTest {
     Mockery mockKeyedValues;
     Values2D values2D;
     KeyedValues keyedValues;
-    
+    private Mockery mockingContext1 = new Mockery();
+    private Values2D values1 = mockingContext1.mock(Values2D.class);
     @Before
     public void setUp() throws Exception
     {
@@ -194,8 +195,48 @@ public class DataUtilitiesTest {
          };
          assertFalse(DataUtilities.equal(array2, array));
      }
+ 	private double[][] values; //for clone() method
+
      
-   
+     //clone
+     //Test of null double[][] argument
+     	 @Test(expected = IllegalArgumentException.class)
+     	 public void testNullDoubleArray() {
+     	     DataUtilities.clone(values);
+     	 }
+     	 
+     	//Test of double[][] with null value argument
+         @Test
+     	public void testDoubleArrayWithNullValue() {
+         	values=new double[2][5];
+         	this.values[0]=null;
+         	this.values[1][0]=3;
+         	this.values[1][1]=4;
+         	this.values[1][2]=5;
+     		double[][] clone=DataUtilities.clone(values);
+     		assertEquals(values[0],clone[0]);
+     		assertEquals(values[1][0], clone[1][0], .000000001d);
+     		assertEquals(values[1][1], clone[1][1], .000000001d);
+     		assertEquals(values[1][2], clone[1][2], .000000001d);
+     	}
+         
+       //Test of double[][] with no null value argument
+         @Test
+     	public void testDoubleArrayWithNoneNullValue() {
+         	values=new double[2][5];
+         	this.values[0][1]=1;
+         	this.values[0][2]=2;
+         	this.values[1][0]=3;
+         	this.values[1][1]=4;
+         	this.values[1][2]=5;
+     		double[][] clone=DataUtilities.clone(values);
+     		assertEquals(values[0][1],clone[0][1], .000000001d);
+     		assertEquals(values[0][2],clone[0][2], .000000001d);
+     		assertEquals(values[0][4],clone[0][4], .000000001d);
+     		assertEquals(values[1][0], clone[1][0], .000000001d);
+     		assertEquals(values[1][1], clone[1][1], .000000001d);
+     		assertEquals(values[1][2], clone[1][2], .000000001d);
+     	}
     /*
      * Author: Sadman
      * Testing method .calculateRowTotal
@@ -329,6 +370,7 @@ public class DataUtilitiesTest {
 //        assertEquals("Cumulative percentage of all values should be 0.1\n", expectedValue2, result.getValue(1));
 //    }
 //    
+     
     
  // Tests for the createNumberArray(double[] data)
     
@@ -382,6 +424,137 @@ public class DataUtilitiesTest {
 //    }
 //    
     
+    
+    //Test of null Value2D and regular array argument
+	 @Test(expected = IllegalArgumentException.class)
+	 public void testNullValue2DForcalculateRowTotalwithArray() {
+		 int[] arr= {0,1,2};
+	     DataUtilities.calculateRowTotal(null, 0, arr);
+	 }
+	 
+
+
+	 
+	 //Test of null Value2D argument
+	 @Test(expected = IllegalArgumentException.class)
+	 public void testNullValue2DForcalculateColumnTotal() {
+	     DataUtilities.calculateColumnTotal(null, 0);
+	 }
+	 
+	
+	
+	 
+	 //Test of null Value2D and regular array argument
+	 @Test(expected = IllegalArgumentException.class)
+	 public void testNullValue2DForcalculateColumnTotalwithArray() {
+		 int[] arr= {0,1,2};
+	     DataUtilities.calculateColumnTotal(null, 0, arr);
+	 }
+	 
+	 
+	
+
+	 @Test
+		// This tests the method using positive integers and decimals
+		public void createNumberArrayEmptyTest() {
+			double[] inputDoubleArray = {};
+			Number[] actualArray = DataUtilities.createNumberArray(inputDoubleArray);
+			assertEquals("This array should be empty.", 0, actualArray.length);
+		}
+		
+		
+		@Test
+		// This tests the method using positive integers and decimals
+		public void createNumberArrayPositiveTest() {
+			double[] inputDoubleArray = {1.2, 3.4, 5.6, 7.8, 9.0,10};
+			Number[] actualArray = DataUtilities.createNumberArray(inputDoubleArray);
+			assertEquals(actualArray[0].doubleValue(), 1.2, 0.0000001d);
+			assertEquals(actualArray[1].doubleValue(), 3.4, 0.0000001d);
+			assertEquals(actualArray[2].doubleValue(), 5.6, 0.0000001d);
+			assertEquals(actualArray[3].doubleValue(), 7.8, 0.0000001d);
+			assertEquals(actualArray[4].doubleValue(), 9.0, 0.0000001d);
+			assertEquals(actualArray[5].doubleValue(), 10, 0.0000001d);
+		}
+		
+	
+		
+		@Test
+		// This tests the method using positive integers and decimals
+		public void createNumberArrayMixedTest() {
+			double[] inputDoubleArray = {1.2, -3.4, -5.6, 7.8, -9.0,10};
+			Number[] actualArray = DataUtilities.createNumberArray(inputDoubleArray);
+			assertEquals(actualArray[0].doubleValue(), 1.2, 0.0000001d);
+			assertEquals(actualArray[1].doubleValue(), -3.4, 0.0000001d);
+			assertEquals(actualArray[2].doubleValue(), -5.6, 0.0000001d);
+			assertEquals(actualArray[3].doubleValue(), 7.8, 0.0000001d);
+			assertEquals(actualArray[4].doubleValue(), -9.0, 0.0000001d);
+			assertEquals(actualArray[5].doubleValue(), 10, 0.0000001d);
+		}
+		
+		@Test
+		// This tests the method using null values, which are not permitted. Thus, it should throw an illegal argument exception.
+		public void createNumberArrayNullTest() {
+			double[] inputDoubleArray = null;
+			try {
+				Number[] actualArray = DataUtilities.createNumberArray(inputDoubleArray);
+				}catch (Exception e){
+					assertEquals("Null does not throw "
+							+ "an InvalidParameterException", IllegalArgumentException.class, e.getClass());
+				}
+		}
+		
+		@Test
+		//Tests the method using positive decimals
+		public void createNumberArray2DPositiveTest() {
+			double[][] inputDoubleArray = {{1.2, 3.4}, {5.6, 7.8}, {9.0, 8.7},{10}};
+	    	Number[][] actualArray = DataUtilities.createNumberArray2D(inputDoubleArray);
+			assertEquals(actualArray[0][0].doubleValue(), 1.2, 0.0000001d);
+			assertEquals(actualArray[0][1].doubleValue(), 3.4, 0.0000001d);
+			assertEquals(actualArray[1][0].doubleValue(), 5.6, 0.0000001d);
+			assertEquals(actualArray[1][1].doubleValue(), 7.8, 0.0000001d);
+			assertEquals(actualArray[2][0].doubleValue(), 9.0, 0.0000001d);
+			assertEquals(actualArray[2][1].doubleValue(), 8.7, 0.0000001d);
+			assertEquals(actualArray[3][0].doubleValue(), 10, 0.0000001d);
+		}
+		
+		@Test
+		public void createNumberArray2DNegativeTest() {
+			double[][] inputDoubleArray = {{-1.2, -3.4}, {-5.6, -7.8}, {-9.0, -8.7},{-10}};
+	    	Number[][] actualArray = DataUtilities.createNumberArray2D(inputDoubleArray);
+			assertEquals(actualArray[0][0].doubleValue(), -1.2, 0.0000001d);
+			assertEquals(actualArray[0][1].doubleValue(), -3.4, 0.0000001d);
+			assertEquals(actualArray[1][0].doubleValue(), -5.6, 0.0000001d);
+			assertEquals(actualArray[1][1].doubleValue(), -7.8, 0.0000001d);
+			assertEquals(actualArray[2][0].doubleValue(), -9.0, 0.0000001d);
+			assertEquals(actualArray[2][1].doubleValue(), -8.7, 0.0000001d);
+			assertEquals(actualArray[3][0].doubleValue(), -10, 0.0000001d);
+		}
+		
+		@Test
+		public void createNumberArray2DMixedTest() {
+			double[][] inputDoubleArray = {{-1.2, 3.4}, {-5.6, -7.8}, {9.0, 8.7},{-10}};
+	    	Number[][] actualArray = DataUtilities.createNumberArray2D(inputDoubleArray);
+			assertEquals(actualArray[0][0].doubleValue(), -1.2, 0.0000001d);
+			assertEquals(actualArray[0][1].doubleValue(), 3.4, 0.0000001d);
+			assertEquals(actualArray[1][0].doubleValue(), -5.6, 0.0000001d);
+			assertEquals(actualArray[1][1].doubleValue(), -7.8, 0.0000001d);
+			assertEquals(actualArray[2][0].doubleValue(), 9.0, 0.0000001d);
+			assertEquals(actualArray[2][1].doubleValue(), 8.7, 0.0000001d);
+			assertEquals(actualArray[3][0].doubleValue(), -10, 0.0000001d);
+		}
+		
+		@Test
+		// This tests the method using null values, which are not permitted. Thus, it should throw an illegal argument exception.
+		public void createNumberArray2DNullTest() {
+			double[][] inputDoubleArray = null;
+			try {
+			Number[][] actualArray = DataUtilities.createNumberArray2D(inputDoubleArray);
+			}catch (Exception e){
+				assertEquals("Null does not throw "
+						+ "an InvalidParameterException", IllegalArgumentException.class, e.getClass());
+			}
+		}
+		
     //Tests for createNumberArray2D(double[][] data)
 	
     //By:Nolan Parmar
