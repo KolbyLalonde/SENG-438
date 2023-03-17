@@ -165,7 +165,7 @@ For my tests I used verification checkpoints and assertion statements to track i
 
 ### Kolby's tests 1 and 2
 
-For my test #1 I did not test the search with different data as it would be impossible to test for all possible search options. This is why I decided to only test for a singular iteam "Basketball". In the filter bar I tested more than one brand search option by selecting both splading and wilson brand. For the price search bar I tried only one valid price range as trying to cover all valid price ranges would be unreasonable. In my test #2 login I didn't test for different data sets as I didn't think it would be effective to make numerous Amazon account. This is why only one account was created for testing purposes of the valid user login functionality.
+For my test #1 I did not test the search with different data as it would be impossible to test for all possible search options. This is why I decided to only test for a singular iteam "Basketball". In the filter bar I tested more than one brand search option by selecting both splading and wilson brand. For the price search bar I tried only one valid price range as trying to cover all valid price ranges would be unreasonable. In my test #2 login I tested both a valid email and invalid email. Also for password I tested a valid password and invalid password to cover all cases of a sign in.
 
 ### Sadman's tests ? and ?
 
