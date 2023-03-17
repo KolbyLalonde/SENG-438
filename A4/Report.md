@@ -86,11 +86,11 @@ This mutant was killed by our unit test getLengthPositiveRange() seen above. Thi
 
 <img src="media/M5_mutant.png" alt="media/M5_mutant.png" width="600"/>
 
-### Mutant 4 effects the toString() method
+### Mutant 5 effects the toString() method
 
 <img src="media/M5_class.png" alt="media/M5_class.png" width="600"/>
 
-### Mutant 4 is killed by our testToString() test
+### Mutant 5 is killed by our testToString() test
 
 <img src="media/M5_test.png" alt="media/M5_test.png" width="600"/>
 
@@ -112,6 +112,8 @@ This mutant was killed by our unit test testToString() seen above. This mutant c
 
 ### Range Class Mutation Coverage After = 64% (Goal increase 10%)
 
+<img src="media/Range_After.png" alt="media/Range_After.png" width="900"/>
+
 ### DataUtilities Class Mutation Coverage After = 34% (Goal increase 10%)
 
 <img src="media/DataUtilAfter.png" alt="media/DataUtilAfter.png" width="900"/>
@@ -122,7 +124,7 @@ This mutant was killed by our unit test testToString() seen above. This mutant c
 
 Reviewing the effectiveness of our mutation coverage on the range test class we created we noticed a few key factors. The first is that our original mutation coverage was only 54%. We found this somewhat suprising as we had previously found high coverages for this class in assignment 3. After reviewing the summary log, it was dizcovered that some areas of the code we were not being tested as closely as we had anticapated. We found that from the log there were areas where many mutants were surviving. Many of these mutant were mutants effecting the same code lines. Our plan was to target these mutants by writing new test cases into or previous test suites to increase the mutation coverage by killing numerous mutants in a singular test. We found a few areas in the class itself where many mutants surived. These included methods intersects(), expands() and combineIgnoringNaN(). So our plan was to target these classes with new, detailed and specific test cases to increase mutation coverage over the 10% mark. In the end our new tests starting on line 879 of the code included. However it should be noted that equivalence mutants do effect mutation score accuracy negatively as we will describe in more depth below.
 
-getIntersectsTestUpperBoundCloseMatch(), getIntersectsTestLowerBoundCloseMatch(), getIntersectsTestInside(), testCombineIgnoringNaNWithUpperNaN(), testCombineIgnoringNaNWithLowerNaN()....
+getIntersectsTestUpperBoundCloseMatch(), getIntersectsTestLowerBoundCloseMatch(), getIntersectsTestInside(), testCombineIgnoringNaNWithUpperNaN(), testCombineIgnoringNaNWithLowerNaN(), testShiftPositive(), testShiftNegative(), testShiftZero(), testContainsWithin(), testContainsOutside(), testContainsLowerBound(), testContainsUpperBound(), testContainsSingleValue()
 
 ### DataUtilities (Analysis and Design Strategy)
 
