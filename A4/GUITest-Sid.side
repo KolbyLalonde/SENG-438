@@ -1,0 +1,225 @@
+{
+  "id": "f7f263f0-364e-4b35-ac63-aeca10d17766",
+  "version": "2.0",
+  "name": "GUITest",
+  "url": "https://www.amazon.ca/",
+  "tests": [{
+    "id": "b2c14aa1-ef96-45ba-a1b2-3554ab89682d",
+    "name": "NavBar",
+    "commands": [{
+      "id": "18abcd86-423c-4d08-9931-577bcce4797c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16ac00a4-d6ab-4748-bc5f-89050009f016",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Best Sellers",
+      "targets": [
+        ["linkText=Best Sellers", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Best Sellers')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Best-Sellers-generic/zgbs/?ref_=nav_cs_bestsellers')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Best Sellers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ead1d82-1159-4ad7-95b4-3b886f5913a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New Releases",
+      "targets": [
+        ["linkText=New Releases", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'New Releases')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/new-releases/?ref_=nav_cs_newreleases')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'New Releases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94a049a0-9bfd-4b14-bfa0-7482f2c298af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Deals Store",
+      "targets": [
+        ["linkText=Deals Store", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Deals Store')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/deals?ref_=nav_cs_gb')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Deals Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "467be143-e4e9-418c-b726-b989cd24e265",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customer Service",
+      "targets": [
+        ["linkText=Customer Service", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Customer Service')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/help/customer/display.html?ref_=nav_cs_help')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Customer Service')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7db54b7c-b2f7-4463-916c-3334ddf583fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-link-amazonprime",
+      "targets": [
+        ["id=nav-link-amazonprime", "id"],
+        ["linkText=Prime", "linkText"],
+        ["css=#nav-link-amazonprime", "css:finder"],
+        ["xpath=//a[@id='nav-link-amazonprime']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-xshop']/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/prime?ref_=nav_cs_primelink_nonmember')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75b4ff25-e04e-47e2-9144-91a86631d03a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/browse.html?node=2206275011&ref_=nav_cs_home')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72926a47-b489-41ef-84f9-bc1e3a09d760",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Electronics",
+      "targets": [
+        ["linkText=Electronics", "linkText"],
+        ["css=.nav-a:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Electronics')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Electronics-Accessories/b/?ie=UTF8&node=667823011&ref_=nav_cs_electronics')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "487d267d-4aeb-4ae4-83ff-11ae5978a795",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sell",
+      "targets": [
+        ["linkText=Sell", "linkText"],
+        ["css=.nav-a:nth-child(9)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sell')])[2]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/b/?node=15664730011&ld=AZCASOA-sell&ref_=nav_cs_sell')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a73566f0-ef57-40e7-8016-82cb956fb904",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Books",
+      "targets": [
+        ["linkText=Books", "linkText"],
+        ["css=.nav-a:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Books')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/books-used-books-textbooks/b/?ie=UTF8&node=916520&ref_=nav_cs_books')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Books')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfa944b5-b7c5-48fc-975d-27adf6f13432",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kindle Books",
+      "targets": [
+        ["linkText=Kindle Books", "linkText"],
+        ["css=.nav-a:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Kindle Books')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[10]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ebooks-kindle/b/?ie=UTF8&node=2980423011&ref_=nav_cs_kindle_books')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[10]", "xpath:position"],
+        ["xpath=//a[contains(.,'Kindle Books')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f8caf3-f71a-44db-a36a-6887968d71be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coupons",
+      "targets": [
+        ["linkText=Coupons", "linkText"],
+        ["css=.nav-a:nth-child(12)", "css:finder"],
+        ["xpath=//a[contains(text(),'Coupons')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[11]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/b/?node=12218500011&ref_=nav_cs_coupons')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[11]", "xpath:position"],
+        ["xpath=//a[contains(.,'Coupons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "af567693-b079-4a36-b8e3-2af76a63f714",
+    "name": "ChangeLang",
+    "commands": [{
+      "id": "40cb1ace-f9f2-422f-b844-02a6c7ec6def",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da5aa1b5-169b-4b3d-b67a-32cf615e981b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icp-nav-link-inner > .nav-line-2",
+      "targets": [
+        ["css=.icp-nav-link-inner > .nav-line-2", "css:finder"],
+        ["xpath=//a[@id='icp-nav-flyout']/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "889a60ed-3e08-4a45-a14b-c431d5139653",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-row:nth-child(6) label",
+      "targets": [
+        ["css=.a-row:nth-child(6) label", "css:finder"],
+        ["xpath=//div[@id='icp-language-settings']/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bbfe932c-1aa1-49ae-a026-6cf14c808fb8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b2c14aa1-ef96-45ba-a1b2-3554ab89682d"]
+  }],
+  "urls": ["https://www.amazon.ca/"],
+  "plugins": []
+}
