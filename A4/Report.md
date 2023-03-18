@@ -162,6 +162,22 @@ This mutant survived our test case. This is because this test case changes our 0
 
 This mutant was killed by our unit test testContainsSingleValue() seen above. This mutant changes the upper bound value with 1. When this happens, our test will fail, which then kills the mutant as reported. Our test fails with this mutant because it is not possible to have the upper bound value be smaller than the lower bound value.
 
+## MUTANT #10.)
+
+<img src="media/M10_mutant.png" alt="media/M5_mutant.png" width="600"/>
+
+### Mutant 10 effects the shift() method
+
+<img src="media/M9_class.png" alt="media/M5_class.png" width="600"/>
+
+### Mutant 10 is killed by our testToString() test
+
+<img src="media/M9_test.png" alt="media/M5_test.png" width="600"/>
+
+### Explanation
+
+This mutant was killed by our unit test testContainsSingleValue() seen above. This mutant negates the lower bound value. When this happens, our test will fail, which then kills the mutant as reported. Our test fails with this mutant because it is not possible to have to not have a lower bound value.
+
 # Report all the statistics and the mutation score for each test class
 
 ### Range Class Mutation Coverage Before = 54%
