@@ -1,0 +1,203 @@
+{
+  "id": "53c133ed-1ed6-4633-be89-61e2313ba865",
+  "version": "2.0",
+  "name": "GUI_TestsNolan/Sadman",
+  "url": "https://www.amazon.ca/",
+  "tests": [{
+    "id": "cb981ff9-72a7-4286-89ec-3b4acf2dbbcd",
+    "name": "editprofile",
+    "commands": [{
+      "id": "4590c990-eb89-4c53-92ce-009fce72cdfa",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be767d0c-3246-4587-97f0-7a79d192c728",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c132937-7cf0-4183-bc56-deff633d66f4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-link-accountList-nav-line-1",
+      "targets": [
+        ["id=nav-link-accountList-nav-line-1", "id"],
+        ["css=#nav-link-accountList-nav-line-1", "css:finder"],
+        ["xpath=//span[@id='nav-link-accountList-nav-line-1']", "xpath:attributes"],
+        ["xpath=//a[@id='nav-link-accountList']/div/span", "xpath:idRelative"],
+        ["xpath=//a[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hello, Nolan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda1a027-b43a-4b17-9304-99752c3f9abc",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-link-accountList-nav-line-1",
+      "targets": [
+        ["id=nav-link-accountList-nav-line-1", "id"],
+        ["css=#nav-link-accountList-nav-line-1", "css:finder"],
+        ["xpath=//span[@id='nav-link-accountList-nav-line-1']", "xpath:attributes"],
+        ["xpath=//a[@id='nav-link-accountList']/div/span", "xpath:idRelative"],
+        ["xpath=//a[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hello, Nolan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fb5f3c9-76d7-4c8a-9a95-813c8ebc7fc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ya-card-row:nth-child(4) > .ya-card-cell:nth-child(2) .a-spacing-none",
+      "targets": [
+        ["css=.ya-card-row:nth-child(4) > .ya-card-cell:nth-child(2) .a-spacing-none", "css:finder"],
+        ["xpath=//div[@id='a-page']/div[2]/div/div[4]/div[2]/a/div/div/div/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/a/div/div/div/div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Digital Services & Device Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "718fd141-e370-4668-9c2e-df0a14347f93",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cs-things > a:nth-child(7) > .headoption",
+      "targets": [
+        ["css=#cs-things > a:nth-child(7) > .headoption", "css:finder"],
+        ["xpath=//div[@id='cs-things']/a[6]/div", "xpath:idRelative"],
+        ["xpath=//a[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d1f8fc8-be51-49ed-afd1-f26fe78aea6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your Apps",
+      "targets": [
+        ["linkText=Your Apps", "linkText"],
+        ["css=.a-section:nth-child(1) > .a-unordered-list > .a-spacing-micro:nth-child(1) .a-link-normal", "css:finder"],
+        ["xpath=//a[contains(text(),'Your Apps')]", "xpath:link"],
+        ["xpath=//div[@id='a-page']/div[2]/div/div/div/div/div/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/mas/your-account/myapps/ref=mas_ya_apps')]", "xpath:href"],
+        ["xpath=//li/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fe3cce2-7f58-418c-9110-9a397baa9bda",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Help",
+      "targets": [
+        ["linkText=Help", "linkText"],
+        ["css=#nav-subnav > .nav-a:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='nav-subnav']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/help/customer/display.html/?ie=UTF8&nodeId=201147290&ref_=sv_mas_3')]", "xpath:href"],
+        ["xpath=//div[6]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b820c26c-003c-4e14-9525-9f34236ad9d1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8b6ff56b-e672-4b4e-80c5-918138aa2ec0",
+    "name": "trackorders",
+    "commands": [{
+      "id": "6e676f3d-911d-4795-9975-9a4c588a57b3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/gp/css/homepage.html?ref_=nav_youraccount_btn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18388347-1dff-4394-be4c-0dc3678526ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1009",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "867bc965-74bb-43ce-9058-f339db41f15a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ya-card-row:nth-child(2) > .ya-card-cell:nth-child(1) .a-color-secondary",
+      "targets": [
+        ["css=.ya-card-row:nth-child(2) > .ya-card-cell:nth-child(1) .a-color-secondary", "css:finder"],
+        ["xpath=//div[@id='a-page']/div[2]/div/div[2]/div/a/div/div/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Track, return, cancel an order, download invoice or buy again')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34d28df1-5c38-4584-9191-e4368c4bef1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=a-autoid-7-announce",
+      "targets": [
+        ["id=a-autoid-7-announce", "id"],
+        ["linkText=Track package", "linkText"],
+        ["css=#a-autoid-7-announce", "css:finder"],
+        ["xpath=//a[contains(text(),'Track package')]", "xpath:link"],
+        ["xpath=//a[@id='a-autoid-7-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-7']/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/your-account/ship-track?ref=ppx_yo2ov_dt_b_track_package&packageIndex=0&orderId=701-5584886-3541829&shipmentId=MspywxYSK')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/span[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Track package')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be1aabdd-6625-465c-9c02-252f7fb980e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Order Details",
+      "targets": [
+        ["linkText=Order Details", "linkText"],
+        ["css=li:nth-child(5) > .a-list-item > .a-link-normal", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Details')]", "xpath:link"],
+        ["xpath=//div[@id='breadcrumbs']/ul/li[5]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/your-account/order-details/?orderID=701-5584886-3541829&ref=ppx_pt2_dt_b_breadcrumb_detail')]", "xpath:href"],
+        ["xpath=//li[5]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d66408d3-6800-475d-8515-b1881da48421",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-search-submit-button",
+      "targets": [
+        ["id=nav-search-submit-button", "id"],
+        ["css=#nav-search-submit-button", "css:finder"],
+        ["xpath=//input[@id='nav-search-submit-button']", "xpath:attributes"],
+        ["xpath=//span[@id='nav-search-submit-text']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9662f382-e95f-4d17-9c21-7d219b8db714",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a021e01d-239a-4dac-8c04-4c4db1b64041",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ikea.com/", "https://www.ikea.com/ca/en/", "https://www.amazon.ca/"],
+  "plugins": []
+}

@@ -1,0 +1,241 @@
+{
+  "id": "38b4c221-b5c3-494c-bfc4-69d6c75790d8",
+  "version": "2.0",
+  "name": "A4",
+  "url": "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart",
+  "tests": [{
+    "id": "afe6b47f-fe60-4726-8cda-876c8b09f7e7",
+    "name": "addCartTest",
+    "commands": [{
+      "id": "a577c8f8-ab62-4d49-830f-885c2bded6a0",
+      "comment": "",
+      "command": "open",
+      "target": "/Wilson-NBA-DRV-Pro-Basketball/dp/B091MJMKVK/ref=sr_1_7?crid=84EYK3FWNNE0&keywords=basketball&qid=1679083026&sprefix=basketbal%2Caps%2C128&sr=8-7",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82225731-ab4d-474f-b9e9-2a633a8b733c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1047x1104",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe0aeab8-f6d8-4106-adea-5c6aeb9338a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af7f76ef-48f3-4ad4-8895-e3ce29de4881",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87dd073b-9e08-413b-b791-84514182120e",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32c5822e-5ac6-430e-8be7-09cb4b5e4801",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d3ffff9-87d6-42ca-91e3-5ca1e163cea5",
+      "comment": "",
+      "command": "click",
+      "target": "id=native_dropdown_selected_size_name",
+      "targets": [
+        ["id=native_dropdown_selected_size_name", "id"],
+        ["name=dropdown_selected_size_name", "name"],
+        ["css=#native_dropdown_selected_size_name", "css:finder"],
+        ["xpath=//select[@id='native_dropdown_selected_size_name']", "xpath:attributes"],
+        ["xpath=//div[@id='variation_size_name']/span/span/select", "xpath:idRelative"],
+        ["xpath=//span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9104753-ba00-4af7-9ba9-aa05083ecd54",
+      "comment": "",
+      "command": "select",
+      "target": "id=native_dropdown_selected_size_name",
+      "targets": [],
+      "value": "label=Size 7 - 29.5\""
+    }, {
+      "id": "92ceaeed-a638-4fbc-b17f-0dad32bddd80",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=a-autoid-11-announce",
+      "targets": [
+        ["id=a-autoid-11-announce", "id"],
+        ["css=#a-autoid-11-announce", "css:finder"],
+        ["xpath=//button[@id='a-autoid-11-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-11']/span/button", "xpath:idRelative"],
+        ["xpath=//li[2]/span/div/span/span/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'DRV Plus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "245afa91-0ad0-4e38-a7de-82fe7b189905",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=a-autoid-11-announce",
+      "targets": [
+        ["id=a-autoid-11-announce", "id"],
+        ["css=#a-autoid-11-announce", "css:finder"],
+        ["xpath=//button[@id='a-autoid-11-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-11']/span/button", "xpath:idRelative"],
+        ["xpath=//li[2]/span/div/span/span/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'DRV Plus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3ef6a93-5890-476f-8ef4-5c7b49033d38",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#contextualIngressPtLabel_deliveryShortLine > span:nth-child(1)",
+      "targets": [
+        ["css=#contextualIngressPtLabel_deliveryShortLine > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='contextualIngressPtLabel_deliveryShortLine']/span", "xpath:idRelative"],
+        ["xpath=//span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3659443a-3dcc-4b2b-be4a-1fa1f2bdcf4c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#contextualIngressPtLabel_deliveryShortLine > span:nth-child(1)",
+      "targets": [
+        ["css=#contextualIngressPtLabel_deliveryShortLine > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='contextualIngressPtLabel_deliveryShortLine']/span", "xpath:idRelative"],
+        ["xpath=//span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f45a713-a744-4bb7-a260-6b99bb1c40e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42248574-0687-4559-9513-5c76caeeaded",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a-link-normal > .celwidget",
+      "targets": [
+        ["css=.a-link-normal > .celwidget", "css:finder"],
+        ["xpath=(//img[@alt='WILSON NBA DRV Pro Basketball - Size 7 - 29.5&quot;, Brown'])[3]", "xpath:img"],
+        ["xpath=//div[@id='add-to-cart-confirmation-image']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5fe3f17c-681f-47ea-9323-270adb8fe573",
+    "name": "removeCartTest",
+    "commands": [{
+      "id": "6d8af1d2-1424-402b-bdfa-b8a485dae34b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65c3f16b-2c40-4b6a-ae6e-393bb263cc2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=a-autoid-1-announce",
+      "targets": [
+        ["id=a-autoid-1-announce", "id"],
+        ["css=#a-autoid-1-announce", "css:finder"],
+        ["xpath=//span[@id='a-autoid-1-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-1']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "962402be-7841-4b18-8c54-e49ad3de06ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity_1",
+      "targets": [
+        ["id=quantity_1", "id"],
+        ["linkText=1", "linkText"],
+        ["css=#quantity_1", "css:finder"],
+        ["xpath=(//a[contains(text(),'1')])[2]", "xpath:link"],
+        ["xpath=//a[@id='quantity_1']", "xpath:attributes"],
+        ["xpath=//div[@id='a-popover-2']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63522cc0-b3b7-40ee-ad50-70ee7f1bf2d4",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit.delete.C287af1c6-5518-4126-bf38-5a493b3bc763",
+      "targets": [
+        ["name=submit.delete.C287af1c6-5518-4126-bf38-5a493b3bc763", "name"],
+        ["css=.sc-action-delete:nth-child(3) .a-color-link", "css:finder"],
+        ["xpath=//input[@name='submit.delete.C287af1c6-5518-4126-bf38-5a493b3bc763']", "xpath:attributes"],
+        ["xpath=//div[@id='sc-active-C287af1c6-5518-4126-bf38-5a493b3bc763']/div[4]/div/div[3]/div/span[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5c0f33bc-5675-43fa-96a6-66d36f6ac6e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["afe6b47f-fe60-4726-8cda-876c8b09f7e7"]
+  }],
+  "urls": ["https://www.amazon.ca/", "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart"],
+  "plugins": []
+}
