@@ -238,7 +238,9 @@ For my tests I used a combination of assertion statements and verification check
 
 For my tests I used verification checkpoints and assertion statements to track if the value that were intended are being recorded. For test #3 I made it verify if it went to the correct profile setting when going through the account. I also made sure that it said there no subscriptions on the account. For test 4 I made it verify that the correct item was in the cart and included assertions for finding the product. 
 
-### Siddharth's tests ? and ?
+### Siddharth's tests 7 and 8
+
+For my tests I mainly used verification checkpoints to see if the correct pages where accessed. For test #7 I used a checkpoint after the language has been changed to French to see if the language was properly switched. For test #8 I used many verification checkpoints to make sure that each tab on the nav bar was properly visited and accessed.
 
 # how did you test each functionaity with different test data
 
@@ -253,7 +255,9 @@ For my test #1 I did not test the search with different data as it would be impo
 For test 3 I could not test if there were subscriptions in the account since I did not have any and did not want to spend money to test it. This is why I tested it with just having no subscriptions. I also tested different profile features such as mobile apps connected to show more verification in editing the profile. In test 4 
 I thought testing for different products as covering all products would be unreasonable and 1 product would achieve the same result of testing different products.
 
-### Siddharth's tests ? and ?
+### Siddharth's tests 7 and 8
+
+For test 7 there was only one possiblity for me to test. Which was to switch the langauge from English to French, doing this inherently tests all possibilites as there is only one. For test 8 there was a limited number of test cases - the categories offered on the nav bar. This made it so that all test cases were able to be tested for the nav bar.
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
