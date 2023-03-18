@@ -100,15 +100,15 @@ This mutant was killed by our unit test testToString() seen above. This mutant c
 
 ## MUTANT #6.)
 
-<img src="media/M5_mutant.png" alt="media/M5_mutant.png" width="600"/>
+<img src="media/M6_mutant.png" alt="media/M5_mutant.png" width="600"/>
 
 ### Mutant 6 effects the shift() method
 
-<img src="media/M5_class.png" alt="media/M5_class.png" width="600"/>
+<img src="media/M6_class.png" alt="media/M5_class.png" width="600"/>
 
 ### Mutant 6 is killed by our testToString() test
 
-<img src="media/M5_test.png" alt="media/M5_test.png" width="600"/>
+<img src="media/M6_test.png" alt="media/M5_test.png" width="600"/>
 
 ### Explanation
 
@@ -116,15 +116,15 @@ This mutant was killed by our unit test testShiftPositive() seen above. This mut
 
 ## MUTANT #7.)
 
-<img src="media/M5_mutant.png" alt="media/M5_mutant.png" width="600"/>
+<img src="media/M7_mutant.png" alt="media/M5_mutant.png" width="600"/>
 
 ### Mutant 7 effects the shift() method
 
-<img src="media/M5_class.png" alt="media/M5_class.png" width="600"/>
+<img src="media/M6_class.png" alt="media/M5_class.png" width="600"/>
 
 ### Mutant 7 is killed by our testToString() test
 
-<img src="media/M5_test.png" alt="media/M5_test.png" width="600"/>
+<img src="media/M7_test.png" alt="media/M5_test.png" width="600"/>
 
 ### Explanation
 
