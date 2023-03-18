@@ -6,6 +6,7 @@
  * org.jfree.data.Range testing method combine
  */
 
+
  package org.jfree.data;
 
  import static org.junit.Assert.*; import org.jfree.data.Range; import org.junit.*;
