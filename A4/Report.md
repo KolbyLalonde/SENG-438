@@ -207,7 +207,7 @@ getIntersectsTestUpperBoundCloseMatch(), getIntersectsTestLowerBoundCloseMatch()
 
 ### DataUtilities (Analysis and Design Strategy)
 
-...
+After going through our original mutation coverage we found out that we had a very low coverage of 11% due to reomving test suites that failed in assignment 3. After going through the summary log, it revealed that some sectiopns of the code had many mutants surviving. Since we had to get rid of many test cases that failed previously, we decided to create many new test cases in previous test suites or new suites to cover many of the mutants that were effecting the same lines of code. This would increase the mutation coverage alot in a singular test. These were classes such as calculateRowTotal(), and equal(). We targeted these classes and added more test cases to increase the mutation coverage to 34%. However it should be noted that equivalence mutants do effect mutation score accuracy negatively as we will describe in more depth below.
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
@@ -234,7 +234,7 @@ For my tests I used a combination of assertion statements and verification check
 ### Sadman's tests ? and ?
 
 
-### Nolan's tests 3 and 4
+### Nolan's tests editprofile and additemtocart
 
 For my tests I used verification checkpoints and assertion statements to track if the value that were intended are being recorded. For test #3 I made it verify if it went to the correct profile setting when going through the account. I also made sure that it said there no subscriptions on the account. For test 4 I made it verify that the correct item was in the cart and included assertions for finding the product. 
 
@@ -250,7 +250,7 @@ For my test #1 I did not test the search with different data as it would be impo
 
 ### Sadman's tests ? and ?
 
-### Nolan's tests 3 and 4
+### Nolan's tests editprofile and additemtocart
 
 For test 3 I could not test if there were subscriptions in the account since I did not have any and did not want to spend money to test it. This is why I tested it with just having no subscriptions. I also tested different profile features such as mobile apps connected to show more verification in editing the profile. In test 4 
 I thought testing for different products as covering all products would be unreasonable and 1 product would achieve the same result of testing different products.
