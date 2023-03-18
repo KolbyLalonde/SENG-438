@@ -98,6 +98,37 @@ This mutant was killed by our unit test getLengthPositiveRange() seen above. Thi
 
 This mutant was killed by our unit test testToString() seen above. This mutant changes the expected return string created by the method to an empty string "". With this happening our test will now fail and thus kill the mutant as reported. Our test fails with this mutant as the string returned by exampleRange4.toString() will no longer be "Range[-5.5,11.1]" as expected. Instead since the returned string is just "" which does not match the previous expected string and is why the mutant is killed in this scenario.
 
+## MUTANT #6.)
+
+<img src="media/M5_mutant.png" alt="media/M5_mutant.png" width="600"/>
+
+### Mutant 6 effects the shift() method
+
+<img src="media/M5_class.png" alt="media/M5_class.png" width="600"/>
+
+### Mutant 6 is killed by our testToString() test
+
+<img src="media/M5_test.png" alt="media/M5_test.png" width="600"/>
+
+### Explanation
+
+This mutant was killed by our unit test testShiftPositive() seen above. This mutant changes the expected return value created by the method with a null return value. When this happens, our test will fail, which then kills the mutant as reported. Our test fails with this mutant because it returns a null value instead of the expected shift of (5,15).
+
+## MUTANT #7.)
+
+<img src="media/M5_mutant.png" alt="media/M5_mutant.png" width="600"/>
+
+### Mutant 7 effects the shift() method
+
+<img src="media/M5_class.png" alt="media/M5_class.png" width="600"/>
+
+### Mutant 7 is killed by our testToString() test
+
+<img src="media/M5_test.png" alt="media/M5_test.png" width="600"/>
+
+### Explanation
+
+This mutant survived our test case. This is because this test case changes our 0 value of our Range variable into a 1. This mutation survives the mutation changing value of the lower bound from 0 to 1, but testing a shift of 0 means that we will have the same range as originally started. This gives us an assertion of true meaning the mutant survives the test case.
 
 # Report all the statistics and the mutation score for each test class
 
