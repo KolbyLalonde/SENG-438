@@ -231,10 +231,12 @@ When creating out SELENUIM tests we wanted to design test cases with scenerios t
 
 For my tests I used a combination of assertion statements and verification checkpoints to track if the value where being recorded as intended. For test #1 I included this for the search bar text feild to verify "Basketball" was searched. I also included assert statements to verify that the values for the price range text box of low and high were 5 and 40 as expected. For the login test #2 I verified a login test with a valid user. I included assertions for the email and password text box as well as varify checkpoints to be sure they were valid as intended.
 
-### Sadman's tests ? and ?
+### Sadman's tests additemtocart and removeCartTest
+
+While it may be true that Selenium IDE tracks executed statements and test files are saved in HTML format, assertions and checkpoints are still essential tools for effective use of Selenium. Assertions would have allowed me to compare expected outputs with actual results and identify bugs(in this case, I didnt encounter any bug), while checkpoints verify the current state of a web page or application during test execution. These tools help ensure reliable and accurate web application testing and aid in identifying and resolving application issues effectively.
 
 
-### Nolan's tests editprofile and additemtocart
+### Nolan's tests editprofile and trackorders
 
 For my tests I used verification checkpoints and assertion statements to track if the value that were intended are being recorded. For test #3 I made it verify if it went to the correct profile setting when going through the account. I also made sure that it said there no subscriptions on the account. For test 4 I made it verify that the correct item was in the cart and included assertions for finding the product. 
 
@@ -248,9 +250,11 @@ For my tests I mainly used verification checkpoints to see if the correct pages 
 
 For my test #1 I did not test the search with different data as it would be impossible to test for all possible search options. This is why I decided to only test for a singular iteam "Basketball". In the filter bar I tested more than one brand search option by selecting both splading and wilson brand. For the price search bar I tried only one valid price range as trying to cover all valid price ranges would be unreasonable. In my test #2 login I tested both a valid email and invalid email. Also for password I tested a valid password and invalid password to cover all cases of a sign in.
 
-### Sadman's tests ? and ?
+### Sadman's tests additemtocart and removeCartTest
 
-### Nolan's tests editprofile and additemtocart
+Functionalities were thoroughly tested using different scenarios such as invalid and valid inputs. For example, the add to cart function was tested using different quantities and remove from cart was tested with trying to remove different quantities with each attempt. Although due to availability it was not possible to test different quantities for certain products. Overall, the number of successful shows that the tests were successful. 
+
+### Nolan's tests editprofile and trackorders
 
 For test 3 I could not test if there were subscriptions in the account since I did not have any and did not want to spend money to test it. This is why I tested it with just having no subscriptions. I also tested different profile features such as mobile apps connected to show more verification in editing the profile. In test 4 
 I thought testing for different products as covering all products would be unreasonable and 1 product would achieve the same result of testing different products.
