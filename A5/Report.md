@@ -11,6 +11,13 @@
 
 # Introduction
 
+In this lab we will learn how to use reliability assessment tools to review integration test data. The two ways we will look into are 
+
+  1. Reliability growth testing
+  2. Reliability assessment using Reliability Demonstration Chart (RDC)
+
+Both of which will be studied in this project.
+
 # 
 
 # Assessment Using Reliability Growth Testing 
