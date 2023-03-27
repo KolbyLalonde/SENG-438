@@ -2,12 +2,12 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group: Group Number 17     |
+|-----------------|
+| Student 1 Kolby Lalonde                |   
+| Student 2 Sadman Shahriar              |   
+| Student 3 Nolan Parmar              |   
+| Student 4 Siddharth Menon           |   
 
 # Introduction
 
