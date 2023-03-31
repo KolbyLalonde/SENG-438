@@ -24,7 +24,11 @@ Both of which will be studied in this project.
 
 # Assessment Using Reliability Demonstration Chart 
 
-<img src="media/M1_mutant.png" alt="media/Regular.png" width="600"/>
+<img src="media/Regular.png" alt="media/Regular.png" width="600"/>
+
+<img src="media/Double.png" alt="media/Double.png" width="600"/>
+
+<img src="media/Half.png" alt="media/Half.png" width="600"/>
 
 # 
 
