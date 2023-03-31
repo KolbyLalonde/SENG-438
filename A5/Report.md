@@ -24,6 +24,8 @@ Both of which will be studied in this project.
 
 # Assessment Using Reliability Demonstration Chart 
 
+### 3 plots for MTTFmin, twice and half of it for your test data
+
 ### MTTFmin
 
 <img src="media/Regular.png" alt="media/Regular.png" width="600"/>
@@ -36,7 +38,9 @@ Both of which will be studied in this project.
 
 <img src="media/Half.png" alt="media/Half.png" width="600"/>
 
-# 
+### Explanation of the decided MTTFmin value
+
+### Advantages and Disadvantages of RDC
 
 # Comparison of Results
 
