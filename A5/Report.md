@@ -24,7 +24,7 @@ Both of which will be studied in this project.
 
 # Assessment Using Reliability Demonstration Chart 
 
-### 3 plots for MTTFmin, twice and half of it for your test data
+### 3 Plots for MTTFmin, Double MTTFmin and Half MTTFmin
 
 ### MTTFmin
 
