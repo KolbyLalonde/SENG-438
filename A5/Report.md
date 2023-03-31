@@ -24,6 +24,8 @@ Both of which will be studied in this project.
 
 # Assessment Using Reliability Demonstration Chart 
 
+<img src="media/M1_mutant.png" alt="media/Regular.png" width="600"/>
+
 # 
 
 # Comparison of Results
