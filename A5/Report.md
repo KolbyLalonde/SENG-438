@@ -28,7 +28,7 @@ Using the C-SFRAT tool, we analyzed all the available models on the failure data
 
 ### Selected Models Comparison
 
-Using the tool C-SFRAT allowed us to compare the various models with the Model Comparison feature where we could view how each model fits with the failure data. We could decide upon the best model by checking which line is the closest to the failure data input we provide. Also, the chart displays the correspondence between failure data and the best model that uses the geometric sequence to closely track the data. From this, it shows the NB2 sequence models closely model the failure data when it is calculated with respect to the three parameters.
+Using the tool C-SFRAT allowed us to compare the various models with the Model Comparison feature where we could view how each model fits with the failure data. We could decide upon the best model by checking which line is the closest to the failure data input we provide. Also, the chart displays the correspondence between failure data and the best model that uses the NB2 sequence to closely track the data. From this, it shows the NB2 sequence models closely model the failure data when it is calculated with respect to the three parameters.
 
 <img src="media/model1.png" alt="media/model1.png" width="600"/>
 
