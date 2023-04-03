@@ -101,12 +101,12 @@ The results of these three graph show how changing a RDC MTTFmin ratio can effec
 
 # How the team work/effort was divided and managed
 
-(kolby)
+In order to complete this lab we divided the work accross the two parts. We had Sid and Nolan focus on the first part of the project reliability growth testing. We had Kolby and Sadman focus on the second part of the assignment RDC. With that being said, all group members took the time to test both parts on their own and understand how all portionas of the assignment were implemented. The work for the report was also generally split accross these pairs as well. All group members contributed to the completion of this assignment. Unfortunatly due to unforseen circumstances group member Sadman was unable to preform the demo portion of this assignment.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-(kolby)
+In this assignment the group experinced a few diffuclties. These mainly came from getting the softwares to run properly with our test data. So becuase of this we had to really work together to figure out who would be able to complete what portion of the assignment. We found that it is important to problem solve these issues in a timely manner as we found our group felt a little rushed to complete the assignment before the demo. In future assignments the group will be more aware of time management as well as seeking help on technology issues sooner rather than later.
 
 # Comments/feedback on the lab itself
 
-(kolby)
+The group found this lab to be slighty less informative than some of the previous assignments. This may have been due to the issues with the software mentioned before. It maybe more effective to provide a clear test data format for which the software will run within the lab assignment itself. We also noticed that there were few resources to help with troubleshooting these issues. Perhaps a more detailed lab document would provide students more guidance with this particular assignment. However, the group found the topic of reliability to be fairly interesting and important to creating successful software projects.
