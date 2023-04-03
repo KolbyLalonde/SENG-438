@@ -39,6 +39,22 @@ Upon looking at the overall shape of the Results, the group determined that the 
 <img src="media/table.png" alt="media/table.png" width="600"/>
 
 
+### Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
+
+(nolan or sid)
+
+### Plots for failure rate and reliability of the SUT for the test data provided
+
+(nolan or sid)
+
+### Decision making given a target failure rate
+
+(nolan or sid)
+
+### Advantages and Disadvantages of Reliability Growth Analysis
+
+(nolan or sid)
+
 # Assessment Using Reliability Demonstration Chart 
 
 ### 3 Plots for MTTFmin, Double MTTFmin and Half MTTFmin
@@ -73,14 +89,24 @@ The results of these three graph show how changing a RDC MTTFmin ratio can effec
 
 ### Advantages and Disadvantages of RDC
 
+(sadman)
+
 # Comparison of Results
+
+(sadman)
 
 # Discussion on Similarity and Differences of the Two Techniques
 
+(sadman)
+
 # How the team work/effort was divided and managed
 
-# 
+(kolby)
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+(kolby)
+
 # Comments/feedback on the lab itself
+
+(kolby)
