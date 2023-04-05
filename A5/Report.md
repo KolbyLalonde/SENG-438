@@ -89,7 +89,13 @@ The results of these three graph show how changing a RDC MTTFmin ratio can effec
 
 ### Advantages and Disadvantages of RDC
 
-(sadman)
+The advantages of RDC include:
+
+- Allowing the user to set a predefined or customized risk tolerance profile.
+- Easy to generate graph quickly using minimal data.
+- Provides a strong visual assesment of the reliability of the system under test.
+- Decision making process for accepting or rejecting a system is clear and obvious.
+
 
 # Comparison of Results
 
