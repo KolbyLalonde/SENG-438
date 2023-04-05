@@ -96,6 +96,11 @@ The advantages of RDC include:
 - Provides a strong visual assesment of the reliability of the system under test.
 - Decision making process for accepting or rejecting a system is clear and obvious.
 
+The disavantages of RDC include:
+
+- 
+- Some failure data types outside of cumlative failures can not be observed.
+
 
 # Comparison of Results
 
