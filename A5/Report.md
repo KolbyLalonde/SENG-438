@@ -95,12 +95,14 @@ The advantages of RDC include:
 - Easy to generate graph quickly using minimal data.
 - Provides a strong visual assesment of the reliability of the system under test.
 - Decision making process for accepting or rejecting a system is clear and obvious.
+- Trying out different values of confidence levels and the MTTF is reasonable.
 
 The disavantages of RDC include:
 
-- 
+- Based on inter failure times only.
 - Some failure data types outside of cumlative failures can not be observed.
-
+- Cannot be used to calculate the exact quantitative value for the reliability of our system.
+- Can only indicate if system is acceptable or not with no further instruction.
 
 # Comparison of Results
 
