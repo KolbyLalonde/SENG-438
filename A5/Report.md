@@ -124,11 +124,21 @@ The disavantages of RDC include:
 
 # Comparison of Results
 
-(sadman)
+Looking at our results from part 1 and 2 of this project we have seen how to use both the growth and RDC methods on a test data set. From part 1 we have seen that the growth testing method showed different way of displaying the reliablility of the system under test than part 2. Depending of the difffuclt of the RDC we may reject or accept the system. While with the growth method we are provided a different visual to how the reilablity of the system can be assessed.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
-(sadman)
+Similarity:
+
+- Both visually display the reliability of a system under test.
+- Both can be based on inter failure times and target failure rate (MTTF).
+- Both provide useful feedback to the extent to which a system is reliable.
+
+Differences:
+- RDC: provides a clear result of which the system is accepted or rejected.
+- RDC: Different confident levels can be created to change diffuclty of the test.
+- Reliability growth analysis: Can be based on failure count.
+- Reliability growth analysis: Various different models are available to be utilized.
 
 # How the team work/effort was divided and managed
 
