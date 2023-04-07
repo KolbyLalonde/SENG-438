@@ -54,15 +54,27 @@ To observe the expected behaviour, and whether or not the number of failures is 
 ### Plots for failure rate and reliability of the SUT for the test data provided
 
 MVF Graph for Model 1:
+
+
+
 <img src="media/model1.png" alt="media/model1.png" width="600"/>
 
 MVF Graph for Model 2:
+
+
+
 <img src="media/model2.png" alt="media/model2.png" width="600"/>
 
 Intensity Graph for Model 1:
+
+
+
 <img src="media/intensity1.png" alt="media/intensity1.png" width="600"/>
 
 Intensity Graph for Model 2:
+
+
+
 <img src="media/intensity2.png" alt="media/intensity2.png" width="600"/>
 
 
