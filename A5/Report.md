@@ -81,7 +81,8 @@ Intensity Graph for Model 2:
 
 ### Decision making given a target failure rate
 
-(nolan or sid)
+In order to determine the failure rate target, we utilized the tool: C-SFRAT. C-SFRAT assisted us in predicting the new prediction intervals. Using the information from the tool, we were able to set a target failure rate by dividing the number of failures by the total number of hours the system is running. The failure rate helps us to determine the amount of improvement necessary in our testing to ensure the system's reliability when released to end-users. Our objective was to minimize the failure rate to ensure the reliability of the failure data and the safety of the application. Based on the predictions of both tools, we established a target failure rate. This rate was the lowest intensity for both models within the desired intervals for the intensity graph presented in the preceding section. This target failure rate would provide reliability to the system during the testing phase where the data originated.
+
 
 ### Advantages and Disadvantages of Reliability Growth Analysis
 
