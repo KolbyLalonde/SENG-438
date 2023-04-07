@@ -41,7 +41,15 @@ Upon looking at the overall shape of the Results, the group determined that the 
 
 ### Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
 
+n the C-SFRAT tool, there was no option to conduct a range analysis such as Laplace. Furthermore, the CASRE tool did not work on any group member's laptop after several attempts even after data manipulation and changing the data to fit the format of the sample inputs provided. As such, the group set the Subset Failure Data Range to 17 intervals. This was done by looking at the graph and determining that the data before 18 intervals showed a steady increase whereas afterwards, it became much steeper increases. As such, the first steady rise subset was selected as the Range. The chosen models' Results are displayed below: 
 
+<img src="media/analysis.png" alt="media/analysis.png" width="600"/>
+
+As can be seen, this graph shows the Results being very close together.
+
+To observe the expected behaviour, and whether or not the number of failures is expected to plateau (steady out) using the two models and the specified Range, the predicted value for the number of intervals was set to 20. This number was determined through trial and error, and the result produced is as follows:
+
+<img src="media/analysis2.png" alt="media/analysis2.png" width="600"/>
 
 ### Plots for failure rate and reliability of the SUT for the test data provided
 
