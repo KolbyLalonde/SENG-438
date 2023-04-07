@@ -28,20 +28,20 @@ Using the C-SFRAT tool, we analyzed all the available models on the failure data
 
 ### Selected Models Comparison
 
-Using the tool C-SFRAT allowed us to compare the various models with the Model Comparison feature where we could view how each model fits with the failure data. We could decide upon the best model by checking which line is the closest to the failure data input we provide. Also, the chart displays the correspondence between failure data and the best model that uses the NB2 sequence to closely track the data. From this, it shows the NB2 sequence models closely model the failure data when it is calculated with respect to the three parameters.
+Using the tool C-SFRAT allowed us to compare the various models with the Model Comparison feature where we could view how each model fits with the failure data. We could decide upon the best model by checking which line is the closest to the failure data input we provide. Also, the chart displays the correspondence between failure data and the best model that uses the S sequence to closely track the data. From this, it shows the S sequence models closely model the failure data when it is calculated with respect to the three parameters.
 
 <img src="media/model3.png" alt="media/model3.png" width="600"/>
 
 <img src="media/model2.png" alt="media/model2.png" width="600"/>
 
-Upon looking at the overall shape of the Results, the group determined that the best two models, and the ones that were chosen as a result, were NB2. Furthermore, upon looking at the Model Comparison tab, the Critic (mean) for the NB2 model is 1.000 which essentially presents an idea fit for the input data, and the Critic (mean) for the second NB2 model is 1.00, which is close to ideal. The Model Comparison table is provided below for reference:
+Upon looking at the overall shape of the Results, the group determined that the best two models, and the ones that were chosen as a result, were NB2. Furthermore, upon looking at the Model Comparison tab, the Critic (mean) for the NB2 model is 1.000 which essentially presents an idea fit for the input data, and the Critic (mean) for the second S model is 0.999, which is close to ideal and the log likelihood is the closest model to positive infinity. The Model Comparison table is provided below for reference:
 
 <img src="media/table.png" alt="media/table.png" width="600"/>
 
 
 ### Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
 
-(nolan or sid)
+
 
 ### Plots for failure rate and reliability of the SUT for the test data provided
 
